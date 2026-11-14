@@ -1,17 +1,16 @@
 {
  "now": {
   "date": "2026-11-14",
-  "min": 1201,
-  "level": 0.82,
-  "from": "20:00",
-  "to": "20:01",
+  "min": 1231,
+  "level": 0.7,
+  "from": "20:30",
+  "to": "20:31",
   "frames": 5,
   "rings": {
-   "inner": 0.92,
-   "middle": 0.85,
-   "outer": 0.65
+   "middle": 0.8,
+   "outer": 0.45
   },
-  "note": "Mataf très dense et compact autour de la Ka‘bah, foule plus lâche vers le haut et le long de la rambarde, où quelques personnes sont assises.",
+  "note": "Plan large sur le Mataf : foule très dense à droite vers la Ka‘bah, mais le côté gauche et les bords restent clairsemés, avec des fidèles assis ou dispersés.",
   "prayer": false,
   "source": "direct Quran TV (YouTube)"
  },
@@ -85,6 +84,10 @@
    {
     "min": 1201,
     "level": 0.82
+   },
+   {
+    "min": 1231,
+    "level": 0.7
    }
   ]
  }
