@@ -1,18 +1,18 @@
 {
  "now": {
   "date": "2026-11-14",
-  "min": 1171,
-  "level": 0.85,
-  "from": "19:30",
-  "to": "19:31",
+  "min": 1201,
+  "level": 0.82,
+  "from": "20:00",
+  "to": "20:01",
   "frames": 5,
   "rings": {
-   "inner": 0.9,
-   "middle": 0.86,
-   "outer": 0.8
+   "inner": 0.92,
+   "middle": 0.85,
+   "outer": 0.65
   },
-  "note": "Mataf plein jusqu'aux bords, fidèles en rangs de prière serrés et concentriques autour de la Ka‘bah (prière de l'Isha), avec quelques passages dégagés hors de l",
-  "prayer": true,
+  "note": "Mataf très dense et compact autour de la Ka‘bah, foule plus lâche vers le haut et le long de la rambarde, où quelques personnes sont assises.",
+  "prayer": false,
   "source": "direct Quran TV (YouTube)"
  },
  "day": {
@@ -81,6 +81,10 @@
    {
     "min": 1171,
     "level": 0.85
+   },
+   {
+    "min": 1201,
+    "level": 0.82
    }
   ]
  }
