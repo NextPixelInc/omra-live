@@ -1,118 +1,25 @@
 {
  "now": {
-  "date": "2026-11-14",
-  "min": 1411,
-  "level": 0.72,
-  "from": "23:30",
-  "to": "23:31",
+  "date": "2026-11-15",
+  "min": 1,
+  "level": 0.78,
+  "from": "00:00",
+  "to": "00:01",
   "frames": 5,
   "rings": {
-   "inner": 0.8,
-   "middle": 0.72,
-   "outer": 0.6
+   "middle": 0.75,
+   "outer": 0.82
   },
-  "note": "Mataf dense au premier plan à gauche et au centre, avec des zones plus claires et des dalles visibles vers la droite et les bords.",
+  "note": "Mataf dense au premier plan et à gauche, avec des dalles visibles dans la zone centrale et sur la droite, et une foule qui circule sans former de rangs.",
   "prayer": false,
   "source": "direct Quran TV (YouTube)"
  },
  "day": {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "points": [
    {
-    "min": 666,
-    "level": 0.6
-   },
-   {
-    "min": 691,
-    "level": 0.66
-   },
-   {
-    "min": 721,
-    "level": 0.5
-   },
-   {
-    "min": 751,
-    "level": 0.4
-   },
-   {
-    "min": 781,
-    "level": 0.72
-   },
-   {
-    "min": 811,
-    "level": 0.5
-   },
-   {
-    "min": 841,
-    "level": 0.7
-   },
-   {
-    "min": 871,
-    "level": 0.72
-   },
-   {
-    "min": 901,
-    "level": 0.76
-   },
-   {
-    "min": 931,
-    "level": 0.75
-   },
-   {
-    "min": 1021,
-    "level": 0.8
-   },
-   {
-    "min": 1051,
-    "level": 0.45
-   },
-   {
-    "min": 1085,
-    "level": 0.82
-   },
-   {
-    "min": 1111,
-    "level": 0.85
-   },
-   {
-    "min": 1141,
-    "level": 0.88
-   },
-   {
-    "min": 1171,
-    "level": 0.85
-   },
-   {
-    "min": 1201,
-    "level": 0.82
-   },
-   {
-    "min": 1231,
-    "level": 0.7
-   },
-   {
-    "min": 1261,
-    "level": 0.8
-   },
-   {
-    "min": 1291,
+    "min": 1,
     "level": 0.78
-   },
-   {
-    "min": 1321,
-    "level": 0.85
-   },
-   {
-    "min": 1351,
-    "level": 0.78
-   },
-   {
-    "min": 1381,
-    "level": 0.8
-   },
-   {
-    "min": 1411,
-    "level": 0.72
    }
   ]
  }
