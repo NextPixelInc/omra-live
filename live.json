@@ -1,1 +1,27 @@
-{}
+{
+ "now": {
+  "date": "2026-11-13",
+  "min": 1345,
+  "level": 0.72,
+  "from": "22:24",
+  "to": "22:25",
+  "frames": 3,
+  "rings": {
+   "inner": 0.85,
+   "middle": 0.72,
+   "outer": 0.6
+  },
+  "note": "Mataf dense autour de la Ka‘bah, premiers plans et bords plus aérés, foule en mouvement.",
+  "prayer": false,
+  "source": "direct Quran TV (YouTube)"
+ },
+ "day": {
+  "date": "2026-11-13",
+  "points": [
+   {
+    "min": 1345,
+    "level": 0.72
+   }
+  ]
+ }
+}
