@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-16",
-  "min": 755,
-  "level": 0.65,
-  "from": "11:16",
-  "to": "12:35",
-  "frames": 2,
+  "min": 859,
+  "level": 0.72,
+  "from": "13:36",
+  "to": "14:19",
+  "frames": 4,
   "rings": {
-   "inner": 0.88,
-   "middle": 0.65,
-   "outer": 0.45
+   "inner": 0.8,
+   "middle": 0.75,
+   "outer": 0.6
   },
-  "note": "Foule très dense contre la Ka‘bah et jusqu'aux bords sur une image, mais plus clairsemée sur l'esplanade dans l'autre ; les plans de la structure octogonale ne ",
+  "note": "Mataf dense autour de la Ka‘bah, bords plus lâches avec des dalles visibles; la dernière image (14:18, autre heure) montre un Mataf moins serré.",
   "prayer": false,
   "source": "direct Quran TV (YouTube)"
  },
@@ -25,6 +25,10 @@
    {
     "min": 755,
     "level": 0.65
+   },
+   {
+    "min": 859,
+    "level": 0.72
    }
   ]
  }
