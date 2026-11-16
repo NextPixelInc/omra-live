@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-16",
-  "min": 657,
-  "level": 0.76,
-  "from": "10:07",
-  "to": "10:57",
-  "frames": 3,
+  "min": 755,
+  "level": 0.65,
+  "from": "11:16",
+  "to": "12:35",
+  "frames": 2,
   "rings": {
    "inner": 0.88,
-   "middle": 0.78,
-   "outer": 0.62
+   "middle": 0.65,
+   "outer": 0.45
   },
-  "note": "Mataf dense et compact autour de la Ka‘bah, surtout à gauche et en premier plan, avec des bords plus lâches à droite où les dalles apparaissent.",
+  "note": "Foule très dense contre la Ka‘bah et jusqu'aux bords sur une image, mais plus clairsemée sur l'esplanade dans l'autre ; les plans de la structure octogonale ne ",
   "prayer": false,
   "source": "direct Quran TV (YouTube)"
  },
@@ -21,6 +21,10 @@
    {
     "min": 657,
     "level": 0.76
+   },
+   {
+    "min": 755,
+    "level": 0.65
    }
   ]
  }
