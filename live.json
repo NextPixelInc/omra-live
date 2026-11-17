@@ -1,19 +1,19 @@
 {
  "now": {
   "date": "2026-11-18",
-  "min": 91,
-  "level": 0.6,
-  "from": "01:30",
-  "to": "01:31",
-  "frames": 5,
+  "min": 114,
+  "level": 0.68,
+  "from": "01:53",
+  "to": "01:54",
+  "frames": 6,
   "rings": {
-   "inner": 0.8,
-   "middle": 0.6,
-   "outer": 0.35
+   "inner": 0.85,
+   "middle": 0.68,
+   "outer": 0.45
   },
-  "note": "Foule dense autour de la Ka‘bah qui tourne, avec des dalles bien visibles sur les bords et les côtés, et une foule qui se clairsème légèrement d'une image à l'a",
+  "note": "Foule dense autour de la Ka‘bah et à droite, avec des bords et premiers plans plus clairsemés où les dalles se voient, surtout dans les dernières images.",
   "prayer": false,
-  "source": "direct Quran TV (YouTube)"
+  "source": "direct Quran TV"
  },
  "day": {
   "date": "2026-11-18",
@@ -33,6 +33,10 @@
    {
     "min": 91,
     "level": 0.6
+   },
+   {
+    "min": 114,
+    "level": 0.68
    }
   ]
  }
