@@ -1,0 +1,15 @@
+# Essai : le direct YouTube de Makkah est-il lisible depuis les machines de GitHub ?
+name: essai
+on: workflow_dispatch
+jobs:
+  essai:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          sudo apt-get install -y -qq ffmpeg >/dev/null
+          pipx install yt-dlp >/dev/null
+          url=$(yt-dlp --no-warnings -g -f "best[height<=720]/best" "https://www.youtube.com/channel/UCos52azQNBgW63_9uDJoPDA/live" | head -1)
+          ffmpeg -loglevel error -y -live_start_index -1 -i "$url" -vf scale=960:-2 -frames:v 1 frame.jpg
+          ls -l frame.jpg
+      - uses: actions/upload-artifact@v4
+        with: { name: frame, path: frame.jpg }
