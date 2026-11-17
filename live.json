@@ -1,17 +1,16 @@
 {
  "now": {
   "date": "2026-11-18",
-  "min": 120,
-  "level": 0.62,
-  "from": "02:00",
-  "to": "02:00",
+  "min": 151,
+  "level": 0.75,
+  "from": "02:30",
+  "to": "02:31",
   "frames": 6,
   "rings": {
-   "inner": 0.8,
-   "middle": 0.62,
-   "outer": 0.4
+   "middle": 0.77,
+   "outer": 0.72
   },
-  "note": "Foule compacte autour de la Ka‘bah qui tourne, avec des bords clairsemés et de larges dalles blanches dégagées.",
+  "note": "Foule dense en mouvement sur le Mataf, vue depuis le bord sous les arcades, sans dalles visibles, avec des bords un peu plus lâches.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -41,6 +40,10 @@
    {
     "min": 120,
     "level": 0.62
+   },
+   {
+    "min": 151,
+    "level": 0.75
    }
   ]
  }
