@@ -1,4 +1,4 @@
-# Essai : le direct YouTube de Makkah est-il lisible depuis les machines de GitHub ?
+# Essai : le direct officiel de Quran TV (hors YouTube) est-il lisible depuis les machines de GitHub ?
 name: essai
 on: workflow_dispatch
 jobs:
@@ -7,9 +7,11 @@ jobs:
     steps:
       - run: |
           sudo apt-get install -y -qq ffmpeg >/dev/null
-          pipx install yt-dlp >/dev/null
-          url=$(yt-dlp --no-warnings -g -f "best[height<=720]/best" "https://www.youtube.com/channel/UCos52azQNBgW63_9uDJoPDA/live" | head -1)
-          ffmpeg -loglevel error -y -live_start_index -1 -i "$url" -vf scale=960:-2 -frames:v 1 frame.jpg
-          ls -l frame.jpg
+          i=0
+          for u in "http://m.live.net.sa:1935/live/quran/gmswf.m3u8" "https://live.kwikmotion.com/sbrksaquranlive/srpksaquran/playlist.m3u8" "https://live.kwikmotion.com/sbrksaqurangovsalive/srpksaquran/playlist.m3u8"; do
+            i=$((i+1))
+            timeout 40 ffmpeg -loglevel error -y -i "$u" -vf scale=960:-2 -frames:v 1 frame-$i.jpg && echo "OK $u" || echo "ECHEC $u"
+          done
+          ls -l
       - uses: actions/upload-artifact@v4
-        with: { name: frame, path: frame.jpg }
+        with: { name: frames, path: "frame-*.jpg" }
