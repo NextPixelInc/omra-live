@@ -1,18 +1,18 @@
 {
  "now": {
   "date": "2026-11-17",
-  "min": 931,
-  "level": 0.62,
-  "from": "15:30",
-  "to": "15:31",
-  "frames": 5,
+  "min": 961,
+  "level": 0.78,
+  "from": "16:00",
+  "to": "16:01",
+  "frames": 3,
   "rings": {
-   "inner": 0.88,
-   "middle": 0.75,
-   "outer": 0.35
+   "inner": 0.9,
+   "middle": 0.82,
+   "outer": 0.6
   },
-  "note": "Fidèles serrés en rangs de prière concentriques autour de la Ka‘bah, avec l'esplanade extérieure et les bords largement dégagés.",
-  "prayer": true,
+  "note": "Mataf très dense autour de la Ka‘bah et à mi-distance, bords côté droit et haut plus clairsemés avec dalles visibles.",
+  "prayer": false,
   "source": "direct Quran TV (YouTube)"
  },
  "day": {
@@ -45,6 +45,10 @@
    {
     "min": 931,
     "level": 0.62
+   },
+   {
+    "min": 961,
+    "level": 0.78
    }
   ]
  }
