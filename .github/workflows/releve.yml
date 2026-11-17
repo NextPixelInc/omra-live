@@ -1,0 +1,36 @@
+# Relevé d'affluence au Mataf toutes les 30 min, sur les machines de GitHub : aucun ordinateur à laisser allumé.
+# Secret à fournir (Settings → Secrets → Actions) : CLAUDE_CODE_OAUTH_TOKEN (commande `claude setup-token`) ou ANTHROPIC_API_KEY.
+name: releve
+on:
+  schedule:
+    - cron: "0,30 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: releve
+jobs:
+  releve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - name: Secret présent ?
+        id: cle
+        run: |
+          if [ -n "$CLAUDE_CODE_OAUTH_TOKEN$ANTHROPIC_API_KEY" ]; then echo "ok=1" >> "$GITHUB_OUTPUT"; else echo "Aucun secret : relevé laissé au Mac."; fi
+      - uses: actions/checkout@v4
+        if: steps.cle.outputs.ok
+      - name: Relevé
+        if: steps.cle.outputs.ok
+        run: |
+          sudo apt-get install -y -qq ffmpeg >/dev/null
+          npm install -g --silent @anthropic-ai/claude-code
+          python3 check.py
+      - name: Publication
+        if: steps.cle.outputs.ok
+        run: |
+          git diff --quiet live.json && exit 0
+          git config user.name "releve" && git config user.email "releve@users.noreply.github.com"
+          git commit -q -m "Relevé" live.json && git pull -q --rebase && git push -q
