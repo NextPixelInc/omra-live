@@ -1,16 +1,16 @@
 {
  "now": {
   "date": "2026-11-18",
-  "min": 151,
-  "level": 0.75,
-  "from": "02:30",
-  "to": "02:31",
+  "min": 181,
+  "level": 0.68,
+  "from": "03:00",
+  "to": "03:01",
   "frames": 6,
   "rings": {
-   "middle": 0.77,
-   "outer": 0.72
+   "middle": 0.72,
+   "outer": 0.6
   },
-  "note": "Foule dense en mouvement sur le Mataf, vue depuis le bord sous les arcades, sans dalles visibles, avec des bords un peu plus lâches.",
+  "note": "Mataf dense à gauche et au centre, dalles visibles au premier plan et à droite, fidèles en mouvement, quelques personnes assises en bas à droite.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -44,6 +44,10 @@
    {
     "min": 151,
     "level": 0.75
+   },
+   {
+    "min": 181,
+    "level": 0.68
    }
   ]
  }
