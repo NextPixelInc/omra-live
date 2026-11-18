@@ -1,17 +1,23 @@
-# Relevé d'affluence au Mataf toutes les 10 min (GitHub lance parfois les tâches planifiées avec quelques minutes de retard), sur les machines de GitHub : aucun ordinateur à laisser allumé.
+# Relevé d'affluence au Mataf toutes les 10 min, sur les machines de GitHub : aucun ordinateur à laisser allumé.
+# GitHub ne lance les tâches planifiées que de loin en loin (deux passages en une journée, constaté le 18 nov. 2026) : la tâche tourne donc en boucle,
+# un relevé à chaque dizaine de minutes pendant 5 h 30, puis elle se relance elle-même. L'horaire planifié ne sert plus que de filet si la boucle s'arrête.
 # Secret à fournir (Settings → Secrets → Actions) : CLAUDE_CODE_OAUTH_TOKEN (commande `claude setup-token`) ou ANTHROPIC_API_KEY.
 name: releve
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "7 * * * *"
   workflow_dispatch:
 permissions:
   contents: write
-concurrency: releve
+  actions: write
+# une seule boucle à la fois : un lancement de plus attend la fin de celle en cours
+concurrency:
+  group: releve
+  cancel-in-progress: false
 jobs:
   releve:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 350
     env:
       CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
       ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -22,15 +28,23 @@ jobs:
           if [ -n "$CLAUDE_CODE_OAUTH_TOKEN$ANTHROPIC_API_KEY" ]; then echo "ok=1" >> "$GITHUB_OUTPUT"; else echo "Aucun secret : relevé laissé au Mac."; fi
       - uses: actions/checkout@v4
         if: steps.cle.outputs.ok
-      - name: Relevé
+      - name: Relevés
         if: steps.cle.outputs.ok
         run: |
           sudo apt-get install -y -qq ffmpeg >/dev/null
           npm install -g --silent @anthropic-ai/claude-code
-          python3 check.py
-      - name: Publication
-        if: steps.cle.outputs.ok
-        run: |
-          git diff --quiet live.json && exit 0
           git config user.name "releve" && git config user.email "releve@users.noreply.github.com"
-          git commit -q -m "Relevé" live.json && git pull -q --rebase && git push -q
+          fin=$(( $(date +%s) + 330 * 60 ))
+          while [ "$(date +%s)" -lt "$fin" ]; do
+            python3 check.py || echo "relevé manqué"
+            if ! git diff --quiet live.json; then
+              git commit -q -m "Relevé" live.json && git pull -q --rebase && git push -q || echo "publication manquée"
+            fi
+            # jusqu'à la dizaine de minutes suivante
+            sleep $(( 600 - $(date +%s) % 600 ))
+          done
+      - name: Relance
+        if: always() && steps.cle.outputs.ok
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run releve.yml --ref main -R "$GITHUB_REPOSITORY"
