@@ -1,17 +1,16 @@
 {
  "now": {
   "date": "2026-11-19",
-  "min": 0,
-  "level": 0.68,
-  "from": "00:00",
-  "to": "00:00",
+  "min": 10,
+  "level": 0.66,
+  "from": "00:10",
+  "to": "00:10",
   "frames": 6,
   "rings": {
-   "inner": 0.85,
-   "middle": 0.68,
-   "outer": 0.45
+   "middle": 0.74,
+   "outer": 0.58
   },
-  "note": "Plan large du Mataf : foule très dense à droite, côté gauche et premiers plans plus clairsemés avec des dalles visibles, fidèles en mouvement.",
+  "note": "Foule dense au premier plan qui avance en tenue d'ihram, bords plus dégagés au fond ; les deux premières images sont beaucoup plus clairsemées, dalles visibles.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -21,6 +20,10 @@
    {
     "min": 0,
     "level": 0.68
+   },
+   {
+    "min": 10,
+    "level": 0.66
    }
   ]
  },
