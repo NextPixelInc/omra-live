@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-19",
-  "min": 160,
-  "level": 0.62,
-  "from": "02:40",
-  "to": "02:40",
+  "min": 170,
+  "level": 0.5,
+  "from": "02:50",
+  "to": "02:50",
   "frames": 6,
   "rings": {
-   "inner": 0.75,
-   "middle": 0.65,
-   "outer": 0.45
+   "inner": 0.7,
+   "middle": 0.5,
+   "outer": 0.3
   },
-  "note": "Foule importante qui tourne autour de la Ka‘bah, avec des dalles claires visibles sur les bords et à droite, et des zones plus clairsemées en périphérie.",
+  "note": "Vue aérienne de nuit : foule compacte autour de la Ka‘bah, dalles visibles sur les bords et à gauche de l'esplanade, étages peu occupés.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -85,6 +85,10 @@
    {
     "min": 160,
     "level": 0.62
+   },
+   {
+    "min": 170,
+    "level": 0.5
    }
   ]
  },
