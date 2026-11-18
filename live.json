@@ -1,17 +1,16 @@
 {
  "now": {
   "date": "2026-11-18",
-  "min": 481,
-  "level": 0.75,
-  "from": "08:00",
-  "to": "08:01",
-  "frames": 1,
+  "min": 511,
+  "level": 0.6,
+  "from": "08:30",
+  "to": "08:31",
+  "frames": 6,
   "rings": {
-   "inner": 0.82,
-   "middle": 0.78,
-   "outer": 0.6
+   "middle": 0.7,
+   "outer": 0.5
   },
-  "note": "Seule l'image 6 montre le Mataf : foule dense et sombre autour de la Ka‘bah, bords et côté gauche plus clairsemés ; les images 1 à 5 montrent l'esplanade extéri",
+  "note": "Bords du Mataf vus de côté : pèlerins en marche, dalles visibles au premier plan, foule plus serrée au loin sur les dernières images.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -85,6 +84,10 @@
    {
     "min": 481,
     "level": 0.75
+   },
+   {
+    "min": 511,
+    "level": 0.6
    }
   ]
  }
