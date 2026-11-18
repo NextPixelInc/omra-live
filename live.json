@@ -1,18 +1,18 @@
 {
  "now": {
   "date": "2026-11-18",
-  "min": 1270,
-  "level": 0.62,
-  "from": "21:10",
-  "to": "21:10",
+  "min": 1280,
+  "level": 0.82,
+  "from": "21:20",
+  "to": "21:20",
   "frames": 6,
   "rings": {
-   "inner": 0.8,
-   "middle": 0.62,
-   "outer": 0.42
+   "inner": 0.85,
+   "middle": 0.82,
+   "outer": 0.78
   },
-  "note": "Foule dense et compacte autour de la Ka‘bah, qui se clairsème vers les bords où les dalles blanches restent bien visibles ; les fidèles circulent.",
-  "prayer": false,
+  "note": "Mataf plein et dense jusqu'aux bords, avec seulement un couloir dégagé entouré de barrières au centre ; la foule semble à l'arrêt, en rangs de prière.",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -169,6 +169,10 @@
    {
     "min": 1270,
     "level": 0.62
+   },
+   {
+    "min": 1280,
+    "level": 0.82
    }
   ]
  },
