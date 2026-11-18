@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-18",
-  "min": 781,
-  "level": 0.88,
-  "from": "13:00",
-  "to": "13:01",
+  "min": 783,
+  "level": 0.8,
+  "from": "13:02",
+  "to": "13:03",
   "frames": 6,
   "rings": {
    "inner": 0.9,
-   "middle": 0.88,
-   "outer": 0.85
+   "middle": 0.82,
+   "outer": 0.62
   },
-  "note": "Mataf saturé : foule compacte du pied de la Ka‘bah jusqu'aux bords, sans dalles visibles, mouvement de tawaf continu.",
+  "note": "Mataf très dense autour de la Ka‘bah et à mi-distance, avec quelques dalles visibles au premier plan et sur les bords inférieurs, foule en mouvement.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -125,6 +125,10 @@
    {
     "min": 781,
     "level": 0.88
+   },
+   {
+    "min": 783,
+    "level": 0.8
    }
   ]
  }
