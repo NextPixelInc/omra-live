@@ -1,16 +1,17 @@
 {
  "now": {
   "date": "2026-11-19",
-  "min": 10,
-  "level": 0.66,
-  "from": "00:10",
-  "to": "00:10",
-  "frames": 6,
+  "min": 20,
+  "level": 0.88,
+  "from": "00:20",
+  "to": "00:20",
+  "frames": 5,
   "rings": {
-   "middle": 0.74,
-   "outer": 0.58
+   "inner": 0.85,
+   "middle": 0.9,
+   "outer": 0.88
   },
-  "note": "Foule dense au premier plan qui avance en tenue d'ihram, bords plus dégagés au fond ; les deux premières images sont beaucoup plus clairsemées, dalles visibles.",
+  "note": "Mataf plein à craquer sur toute la largeur, foule compacte jusqu'aux bords et sans dalles visibles. La sixième image montre une zone latérale plus clairsemée, h",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -24,6 +25,10 @@
    {
     "min": 10,
     "level": 0.66
+   },
+   {
+    "min": 20,
+    "level": 0.88
    }
   ]
  },
