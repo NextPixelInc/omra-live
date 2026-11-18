@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-19",
-  "min": 30,
-  "level": 0.85,
-  "from": "00:30",
-  "to": "00:30",
+  "min": 40,
+  "level": 0.86,
+  "from": "00:40",
+  "to": "00:40",
   "frames": 6,
   "rings": {
-   "inner": 0.88,
+   "inner": 0.9,
    "middle": 0.86,
    "outer": 0.8
   },
-  "note": "Mataf très dense et plein jusqu'aux bords, avec seulement quelques allées dégagées sur la gauche.",
+  "note": "Mataf très dense sur toute l'esplanade, foule compacte jusqu'aux bords, avec quelques espaces dégagés en bas à droite sur les dernières images.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -33,6 +33,10 @@
    {
     "min": 30,
     "level": 0.85
+   },
+   {
+    "min": 40,
+    "level": 0.86
    }
   ]
  },
