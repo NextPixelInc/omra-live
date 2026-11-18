@@ -1,16 +1,17 @@
 {
  "now": {
   "date": "2026-11-18",
-  "min": 511,
-  "level": 0.6,
-  "from": "08:30",
-  "to": "08:31",
+  "min": 541,
+  "level": 0.62,
+  "from": "09:00",
+  "to": "09:01",
   "frames": 6,
   "rings": {
-   "middle": 0.7,
-   "outer": 0.5
+   "inner": 0.85,
+   "middle": 0.6,
+   "outer": 0.35
   },
-  "note": "Bords du Mataf vus de côté : pèlerins en marche, dalles visibles au premier plan, foule plus serrée au loin sur les dernières images.",
+  "note": "Premier plan très dense, zone médiane plus aérée et dalles bien visibles vers les arcades du fond, foule en mouvement.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -88,6 +89,10 @@
    {
     "min": 511,
     "level": 0.6
+   },
+   {
+    "min": 541,
+    "level": 0.62
    }
   ]
  }
