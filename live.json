@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-18",
-  "min": 391,
-  "level": 0.75,
-  "from": "06:30",
-  "to": "06:31",
-  "frames": 4,
+  "min": 420,
+  "level": 0.8,
+  "from": "07:00",
+  "to": "07:00",
+  "frames": 6,
   "rings": {
    "inner": 0.85,
-   "middle": 0.78,
-   "outer": 0.65
+   "middle": 0.8,
+   "outer": 0.72
   },
-  "note": "Plan large depuis l'extérieur : seul un coin du Mataf apparaît à droite, très dense près de la Ka‘bah, avec des bords et les étages supérieurs plus clairsemés.",
+  "note": "Mataf très dense, foule compacte à gauche et au centre, un peu plus lâche sur la droite et au fond, fidèles en mouvement.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -73,6 +73,10 @@
    {
     "min": 391,
     "level": 0.75
+   },
+   {
+    "min": 420,
+    "level": 0.8
    }
   ]
  }
