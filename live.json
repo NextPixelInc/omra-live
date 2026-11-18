@@ -1,243 +1,31 @@
 {
  "now": {
-  "date": "2026-11-18",
-  "min": 1430,
-  "level": 0.88,
-  "from": "23:50",
-  "to": "23:50",
+  "date": "2026-11-19",
+  "min": 0,
+  "level": 0.68,
+  "from": "00:00",
+  "to": "00:00",
   "frames": 6,
   "rings": {
-   "inner": 0.9,
-   "middle": 0.88,
-   "outer": 0.85
+   "inner": 0.85,
+   "middle": 0.68,
+   "outer": 0.45
   },
-  "note": "Mataf très dense et compact jusqu'aux bords, sans dalles visibles, foule en mouvement autour de la Ka‘bah.",
+  "note": "Plan large du Mataf : foule très dense à droite, côté gauche et premiers plans plus clairsemés avec des dalles visibles, fidèles en mouvement.",
   "prayer": false,
   "source": "direct Quran TV"
  },
  "day": {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "points": [
    {
-    "min": 1,
-    "level": 0.76
-   },
-   {
-    "min": 31,
-    "level": 0.8
-   },
-   {
-    "min": 61,
+    "min": 0,
     "level": 0.68
-   },
-   {
-    "min": 91,
-    "level": 0.6
-   },
-   {
-    "min": 114,
-    "level": 0.68
-   },
-   {
-    "min": 120,
-    "level": 0.62
-   },
-   {
-    "min": 151,
-    "level": 0.75
-   },
-   {
-    "min": 181,
-    "level": 0.68
-   },
-   {
-    "min": 240,
-    "level": 0.62
-   },
-   {
-    "min": 271,
-    "level": 0.82
-   },
-   {
-    "min": 301,
-    "level": 0.85
-   },
-   {
-    "min": 331,
-    "level": 0.82
-   },
-   {
-    "min": 361,
-    "level": 0.8
-   },
-   {
-    "min": 391,
-    "level": 0.75
-   },
-   {
-    "min": 420,
-    "level": 0.8
-   },
-   {
-    "min": 451,
-    "level": 0.72
-   },
-   {
-    "min": 481,
-    "level": 0.75
-   },
-   {
-    "min": 511,
-    "level": 0.6
-   },
-   {
-    "min": 541,
-    "level": 0.62
-   },
-   {
-    "min": 570,
-    "level": 0.8
-   },
-   {
-    "min": 601,
-    "level": 0.82
-   },
-   {
-    "min": 631,
-    "level": 0.7
-   },
-   {
-    "min": 688,
-    "level": 0.6
-   },
-   {
-    "min": 706,
-    "level": 0.72
-   },
-   {
-    "min": 721,
-    "level": 0.7
-   },
-   {
-    "min": 751,
-    "level": 0.62
-   },
-   {
-    "min": 781,
-    "level": 0.88
-   },
-   {
-    "min": 783,
-    "level": 0.8
-   },
-   {
-    "min": 953,
-    "level": 0.68
-   },
-   {
-    "min": 1197,
-    "level": 0.8
-   },
-   {
-    "min": 1204,
-    "level": 0.8
-   },
-   {
-    "min": 1210,
-    "level": 0.82
-   },
-   {
-    "min": 1220,
-    "level": 0.78
-   },
-   {
-    "min": 1230,
-    "level": 0.8
-   },
-   {
-    "min": 1240,
-    "level": 0.72
-   },
-   {
-    "min": 1250,
-    "level": 0.86
-   },
-   {
-    "min": 1260,
-    "level": 0.2
-   },
-   {
-    "min": 1270,
-    "level": 0.62
-   },
-   {
-    "min": 1280,
-    "level": 0.82
-   },
-   {
-    "min": 1290,
-    "level": 0.74
-   },
-   {
-    "min": 1300,
-    "level": 0.62
-   },
-   {
-    "min": 1310,
-    "level": 0.78
-   },
-   {
-    "min": 1320,
-    "level": 0.8
-   },
-   {
-    "min": 1330,
-    "level": 0.88
-   },
-   {
-    "min": 1340,
-    "level": 0.88
-   },
-   {
-    "min": 1350,
-    "level": 0.83
-   },
-   {
-    "min": 1360,
-    "level": 0.88
-   },
-   {
-    "min": 1370,
-    "level": 0.72
-   },
-   {
-    "min": 1380,
-    "level": 0.78
-   },
-   {
-    "min": 1390,
-    "level": 0.86
-   },
-   {
-    "min": 1400,
-    "level": 0.72
-   },
-   {
-    "min": 1410,
-    "level": 0.86
-   },
-   {
-    "min": 1420,
-    "level": 0.75
-   },
-   {
-    "min": 1430,
-    "level": 0.88
    }
   ]
  },
  "imams": {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "source": "The Gate to Haramain",
   "fajr": "Sheikh Dr. Al-Waleed bin Khalid Al-Shamsan",
   "dhuhr": "Sheikh Dr. Usamah bin Abdullah Khayyat",
