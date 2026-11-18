@@ -1,18 +1,18 @@
 {
  "now": {
   "date": "2026-11-18",
-  "min": 751,
-  "level": 0.62,
-  "from": "12:30",
-  "to": "12:31",
-  "frames": 1,
+  "min": 781,
+  "level": 0.88,
+  "from": "13:00",
+  "to": "13:01",
+  "frames": 6,
   "rings": {
-   "inner": 0.8,
-   "middle": 0.6,
-   "outer": 0.35
+   "inner": 0.9,
+   "middle": 0.88,
+   "outer": 0.85
   },
-  "note": "Foule compacte autour de la structure centrale, plus clairsemée vers les bords où les dalles restent visibles, fidèles apparemment en rangs.",
-  "prayer": true,
+  "note": "Mataf saturé : foule compacte du pied de la Ka‘bah jusqu'aux bords, sans dalles visibles, mouvement de tawaf continu.",
+  "prayer": false,
   "source": "direct Quran TV"
  },
  "day": {
@@ -121,6 +121,10 @@
    {
     "min": 751,
     "level": 0.62
+   },
+   {
+    "min": 781,
+    "level": 0.88
    }
   ]
  }
