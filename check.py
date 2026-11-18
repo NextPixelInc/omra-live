@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 """Relevé d'affluence au Mataf : capture le direct télévisé de Makkah, fait estimer la foule sur les images, met à jour live.json.
 
-Lancé toutes les 30 min par GitHub Actions (.github/workflows/releve.yml), sans aucun ordinateur allumé. `check.py --dry` : live.json n'est pas modifié.
-live.json : {"now": dernier relevé, "day": {"date", "points": [{"min", "level"}]}} — les formes que lit web/index.html (obs, obsDay).
+Lancé toutes les 10 min par GitHub Actions (.github/workflows/releve.yml), sans aucun ordinateur allumé. `check.py --dry` : live.json n'est pas modifié.
+live.json : {"now": dernier relevé, "day": {"date", "points": [{"min", "level"}]}, "imams": {"date", "fajr", …, "isha"}} — les formes que lit web/index.html (obs, obsDay, imamDay).
 """
-import datetime, json, pathlib, shutil, subprocess, sys, tempfile, time
+import datetime, html, json, pathlib, re, shutil, subprocess, sys, tempfile, time, urllib.request
 
 HERE = pathlib.Path(__file__).parent
 OUT = HERE / "live.json"
 DIRECT = "http://m.live.net.sa:1935/live/quran/gmswf.m3u8"  # Quran TV, direct de la Mosquée sacrée, flux du diffuseur saoudien
 YOUTUBE = "https://www.youtube.com/channel/UCos52azQNBgW63_9uDJoPDA/live"  # la même chaîne, en secours : YouTube refuse les machines des hébergeurs
+IMAMS = "https://thegatetoharamain.com/weekly-schedule-for-the-imams-of-the-two-holy-mosques-in-makkah-and-madina/"  # planning des imams de la semaine, avec le tableau du jour
 FRAMES = 6  # une image toutes les 10 s : la régie change de caméra, plusieurs plans valent mieux qu'un
 tool = lambda name: shutil.which(name) or "/opt/homebrew/bin/" + name  # launchd (Mac) n'a pas le PATH du terminal
 
@@ -65,6 +66,33 @@ def analyse(dir, n):
     return json.loads(r.stdout)["structured_output"]
 
 
+def parse_imams(page, date):
+    """Imams du jour à la Mosquée sacrée, lus dans le tableau « Fajr <nom> 5:14 AM Dhuhr <nom> … » ; `None` si le tableau n'y est pas en entier."""
+    text = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", re.sub(r"<(script|style)[\s\S]*?</\1>", "", page))))
+    start = text.find("Fajr Sheikh")
+    text = text[start:].split("Madinah")[0] if start >= 0 else ""  # la page enchaîne sur la mosquée du Prophète
+    out = {"date": date, "source": "The Gate to Haramain"}
+    for key, label in (("fajr", "Fajr"), ("dhuhr", "Dhuhr"), ("asr", "Asr"), ("maghrib", "Maghrib"), ("isha", "Isha")):
+        m = re.findall(label + r" (Sheikh [^0-9]{1,80}?) \d{1,2}:\d{2} [AP]M", text)
+        if not m:
+            return None
+        out[key] = m[0].strip()
+    return out
+
+
+def imams(old, date):
+    """Les imams du jour, relus une fois par jour ; ceux d'hier restent si la page ne répond pas (l'app n'affiche que ceux datés d'aujourd'hui)."""
+    if old.get("imams", {}).get("date") == date:
+        return old["imams"]
+    try:
+        req = urllib.request.Request(IMAMS, headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36"})
+        found = parse_imams(urllib.request.urlopen(req, timeout=30).read().decode("utf-8", "ignore"), date)
+    except OSError as e:
+        print("imams : page indisponible,", e)
+        found = None
+    return found or old.get("imams")
+
+
 def merge(old, a, start, end):
     """Nouveau contenu de live.json d'après l'analyse `a` d'images prises entre `start` et `end` (heure de Makkah) ; `None` si rien d'exploitable."""
     if not a["usable"] or a["level"] is None:
@@ -87,6 +115,9 @@ def self_check():
     assert m["now"]["min"] == 810 and m["now"]["from"] == "13:29" and m["now"]["rings"] == {"inner": 0.9, "middle": 0.7} and len(m["day"]["points"]) == 2
     assert merge({"day": {"date": "2026-11-12", "points": [{"min": 1, "level": 1}]}}, a, t, t)["day"]["points"] == [{"min": 810, "level": 0.74}]  # nouveau jour : on repart de zéro
     assert merge(old, dict(a, usable=0, level=None), t, t) is None
+    page = "<p>Makkah & Madinah. Fajr 5:14 AM To be led by Sheikh X</p><td>Fajr</td><td>Sheikh Dr. Al-Waleed Al-Shamsan</td><td>5:14 AM</td> Dhuhr Sheikh A Khayyat 12:06 PM Asr Sheikh B Baleelah 3:16 PM Maghrib Sheikh C 5:38 PM Isha Sheikh D 7:08 PM Madinah Fajr Sheikh Autre 5:20 AM"
+    assert parse_imams(page, "2026-11-18") == {"date": "2026-11-18", "source": "The Gate to Haramain", "fajr": "Sheikh Dr. Al-Waleed Al-Shamsan", "dhuhr": "Sheikh A Khayyat", "asr": "Sheikh B Baleelah", "maghrib": "Sheikh C", "isha": "Sheikh D"}
+    assert parse_imams("Fajr Sheikh Seul 5:14 AM", "x") is None
 
 
 def main():
@@ -106,9 +137,13 @@ def main():
                 break
             time.sleep(180)  # la régie montre parfois le ciel ou la ville pendant une minute : un second essai un peu plus tard
         old = json.loads(OUT.read_text()) if OUT.exists() else {}
-        new = merge(old, a, start, end)
-        if new is None or "--dry" in sys.argv:
-            return  # aucune image du Mataf : on garde le relevé précédent, l'app retombe d'elle-même sur l'estimation après 2 h
+        who = imams(old, end.strftime("%Y-%m-%d"))
+        # aucune image du Mataf : on garde le relevé précédent, l'app retombe d'elle-même sur l'estimation après 2 h
+        new = merge(old, a, start, end) or {k: old[k] for k in ("now", "day") if k in old}
+        if who:
+            new["imams"] = who
+        if new == old or "--dry" in sys.argv:
+            return
         OUT.parent.mkdir(exist_ok=True)
         OUT.write_text(json.dumps(new, ensure_ascii=False, indent=1) + "\n")
         pub = HERE.parent / "publish.sh"  # sur le Mac seulement ; sur GitHub, c'est releve.yml qui publie

@@ -1,9 +1,9 @@
-# Relevé d'affluence au Mataf toutes les 30 min, sur les machines de GitHub : aucun ordinateur à laisser allumé.
+# Relevé d'affluence au Mataf toutes les 10 min (GitHub lance parfois les tâches planifiées avec quelques minutes de retard), sur les machines de GitHub : aucun ordinateur à laisser allumé.
 # Secret à fournir (Settings → Secrets → Actions) : CLAUDE_CODE_OAUTH_TOKEN (commande `claude setup-token`) ou ANTHROPIC_API_KEY.
 name: releve
 on:
   schedule:
-    - cron: "0,30 * * * *"
+    - cron: "*/10 * * * *"
   workflow_dispatch:
 permissions:
   contents: write
