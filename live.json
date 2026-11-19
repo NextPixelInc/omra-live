@@ -1,18 +1,17 @@
 {
  "now": {
   "date": "2026-11-19",
-  "min": 1110,
-  "level": 0.88,
-  "from": "18:30",
-  "to": "18:30",
+  "min": 1121,
+  "level": 0.85,
+  "from": "18:40",
+  "to": "18:41",
   "frames": 6,
   "rings": {
-   "inner": 0.85,
-   "middle": 0.9,
-   "outer": 0.88
+   "middle": 0.85,
+   "outer": 0.8
   },
-  "note": "Mataf très dense et saturé de pèlerins sur toute l'esplanade, presque aucune dalle visible, avec un petit dégagement au pied de la Ka‘bah.",
-  "prayer": false,
+  "note": "Foule très dense et compacte sur la partie visible du Mataf, avec un couloir dégagé le long de la balustrade et des rangs serrés sur le côté gauche.",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -433,6 +432,10 @@
    {
     "min": 1110,
     "level": 0.88
+   },
+   {
+    "min": 1121,
+    "level": 0.85
    }
   ]
  },
