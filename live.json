@@ -1,17 +1,15 @@
 {
  "now": {
   "date": "2026-11-19",
-  "min": 420,
-  "level": 0.8,
-  "from": "07:00",
-  "to": "07:00",
-  "frames": 6,
+  "min": 430,
+  "level": 0.7,
+  "from": "07:10",
+  "to": "07:10",
+  "frames": 1,
   "rings": {
-   "inner": 0.9,
-   "middle": 0.82,
-   "outer": 0.65
+   "outer": 0.72
   },
-  "note": "Mataf très dense autour de la Ka‘bah et à mi-distance, bords un peu plus lâches, esplanade de droite clairsemée.",
+  "note": "Seule la dernière image montre le Mataf, de loin et sans la Ka‘bah : foule dense et compacte sur le bord, avec un espace plus dégagé au fond ; les cinq autres i",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -181,6 +179,10 @@
    {
     "min": 420,
     "level": 0.8
+   },
+   {
+    "min": 430,
+    "level": 0.7
    }
   ]
  },
