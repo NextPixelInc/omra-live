@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-19",
-  "min": 390,
-  "level": 0.78,
-  "from": "06:30",
-  "to": "06:30",
-  "frames": 3,
+  "min": 400,
+  "level": 0.86,
+  "from": "06:40",
+  "to": "06:40",
+  "frames": 6,
   "rings": {
-   "inner": 0.85,
-   "middle": 0.8,
-   "outer": 0.68
+   "inner": 0.78,
+   "middle": 0.88,
+   "outer": 0.88
   },
-  "note": "Mataf très dense tout autour de la Ka‘bah, presque plein jusqu'aux bords à gauche, un peu plus lâche sur le côté droit.",
+  "note": "Mataf très dense, plein jusqu'aux bords et aux premiers plans, seule la zone clôturée du Hijr près de la Ka‘bah reste dégagée.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -169,6 +169,10 @@
    {
     "min": 390,
     "level": 0.78
+   },
+   {
+    "min": 400,
+    "level": 0.86
    }
   ]
  },
