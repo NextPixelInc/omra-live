@@ -1,16 +1,17 @@
 {
  "now": {
   "date": "2026-11-19",
-  "min": 1100,
-  "level": 0.8,
-  "from": "18:20",
-  "to": "18:20",
+  "min": 1110,
+  "level": 0.88,
+  "from": "18:30",
+  "to": "18:30",
   "frames": 6,
   "rings": {
-   "middle": 0.72,
-   "outer": 0.86
+   "inner": 0.85,
+   "middle": 0.9,
+   "outer": 0.88
   },
-  "note": "Mataf vu en plongée depuis un angle : dalles claires visibles au centre, mais foule très serrée sur les bords et dans les zones périphériques, sans changement n",
+  "note": "Mataf très dense et saturé de pèlerins sur toute l'esplanade, presque aucune dalle visible, avec un petit dégagement au pied de la Ka‘bah.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -428,6 +429,10 @@
    {
     "min": 1100,
     "level": 0.8
+   },
+   {
+    "min": 1110,
+    "level": 0.88
    }
   ]
  },
