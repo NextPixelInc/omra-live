@@ -1,17 +1,18 @@
 {
  "now": {
   "date": "2026-11-19",
-  "min": 340,
-  "level": 0.76,
-  "from": "05:40",
-  "to": "05:40",
+  "min": 350,
+  "level": 0.7,
+  "from": "05:50",
+  "to": "05:50",
   "frames": 6,
   "rings": {
-   "middle": 0.78,
-   "outer": 0.72
+   "inner": 0.8,
+   "middle": 0.7,
+   "outer": 0.62
   },
-  "note": "Fidèles serrés en rangs de prière du Fajr (debout puis en prosternation) sur le pourtour du Mataf, avec une bande dégagée sur le côté gauche.",
-  "prayer": true,
+  "note": "Vue aérienne de nuit : Mataf dense autour de la Ka‘bah, foule en mouvement, bords et galeries un peu plus lâches.",
+  "prayer": false,
   "source": "direct Quran TV"
  },
  "day": {
@@ -148,6 +149,10 @@
    {
     "min": 340,
     "level": 0.76
+   },
+   {
+    "min": 350,
+    "level": 0.7
    }
   ]
  },
