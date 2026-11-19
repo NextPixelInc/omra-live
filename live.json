@@ -1,17 +1,18 @@
 {
  "now": {
   "date": "2026-11-19",
-  "min": 730,
-  "level": 0.15,
-  "from": "12:10",
-  "to": "12:10",
-  "frames": 3,
+  "min": 740,
+  "level": 0.78,
+  "from": "12:20",
+  "to": "12:20",
+  "frames": 5,
   "rings": {
-   "middle": 0.12,
-   "outer": 0.18
+   "inner": 0.72,
+   "middle": 0.82,
+   "outer": 0.78
   },
-  "note": "Mataf clairsemé : grandes dalles blanches dégagées entre les barrières, quelques petits groupes de fidèles qui marchent.",
-  "prayer": false,
+  "note": "Mataf plein de fidèles alignés en rangs de prière concentriques, serrés jusqu'aux bords, avec seulement une zone dégagée à gauche de la Ka‘bah.",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -296,6 +297,10 @@
    {
     "min": 730,
     "level": 0.15
+   },
+   {
+    "min": 740,
+    "level": 0.78
    }
   ]
  },
