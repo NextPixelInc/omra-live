@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-20",
-  "min": 110,
+  "min": 120,
   "level": 0.9,
-  "from": "01:50",
-  "to": "01:50",
+  "from": "02:00",
+  "to": "02:00",
   "frames": 6,
   "rings": {
-   "inner": 0.9,
+   "inner": 0.88,
    "middle": 0.92,
-   "outer": 0.88
+   "outer": 0.9
   },
-  "note": "Mataf saturé de fidèles serrés jusqu'aux bords, sans dalles visibles, et foule qui semble statique, en prière derrière le récitant.",
+  "note": "Mataf saturé de fidèles en blanc jusqu'aux bords et au pied de la Ka‘bah, sans dalles visibles, foule quasi immobile pendant la récitation.",
   "prayer": true,
   "source": "direct Quran TV"
  },
@@ -64,6 +64,10 @@
    },
    {
     "min": 110,
+    "level": 0.9
+   },
+   {
+    "min": 120,
     "level": 0.9
    }
   ]
