@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-19",
-  "min": 210,
-  "level": 0.55,
-  "from": "03:30",
-  "to": "03:30",
+  "min": 220,
+  "level": 0.88,
+  "from": "03:40",
+  "to": "03:40",
   "frames": 6,
   "rings": {
-   "inner": 0.75,
-   "middle": 0.6,
-   "outer": 0.3
+   "inner": 0.92,
+   "middle": 0.9,
+   "outer": 0.8
   },
-  "note": "Foule compacte autour de la Ka‘bah, surtout côté droit et avant, avec des bords et des dalles dégagés côté gauche.",
+  "note": "Mataf saturé de fidèles en blanc autour de la Ka‘bah, un peu plus lâche seulement le long de la rampe à droite.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -105,6 +105,10 @@
    {
     "min": 210,
     "level": 0.55
+   },
+   {
+    "min": 220,
+    "level": 0.88
    }
   ]
  },
