@@ -1,17 +1,18 @@
 {
  "now": {
   "date": "2026-11-19",
-  "min": 1121,
-  "level": 0.85,
-  "from": "18:40",
-  "to": "18:41",
+  "min": 1130,
+  "level": 0.8,
+  "from": "18:50",
+  "to": "18:50",
   "frames": 6,
   "rings": {
-   "middle": 0.85,
-   "outer": 0.8
+   "inner": 0.85,
+   "middle": 0.8,
+   "outer": 0.72
   },
-  "note": "Foule très dense et compacte sur la partie visible du Mataf, avec un couloir dégagé le long de la balustrade et des rangs serrés sur le côté gauche.",
-  "prayer": true,
+  "note": "Mataf très dense autour de la Ka‘bah, avec quelques zones plus claires sur les bords et à gauche ; galeries et abords bondés.",
+  "prayer": false,
   "source": "direct Quran TV"
  },
  "day": {
@@ -436,6 +437,10 @@
    {
     "min": 1121,
     "level": 0.85
+   },
+   {
+    "min": 1130,
+    "level": 0.8
    }
   ]
  },
