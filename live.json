@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-19",
-  "min": 1160,
-  "level": 0.93,
-  "from": "19:20",
-  "to": "19:20",
+  "min": 1170,
+  "level": 0.92,
+  "from": "19:30",
+  "to": "19:30",
   "frames": 4,
   "rings": {
    "inner": 0.95,
    "middle": 0.93,
-   "outer": 0.9
+   "outer": 0.88
   },
-  "note": "Mataf saturé de fidèles en rangs de prière concentriques serrés autour de la Ka‘bah, sans dalle visible, et galeries environnantes pleines aussi.",
+  "note": "Mataf saturé de fidèles en blanc, alignés en rangs concentriques serrés autour de la Ka‘bah, jusqu'aux bords et aux étages (prière d'al-‘Icha).",
   "prayer": true,
   "source": "direct Quran TV"
  },
@@ -453,6 +453,10 @@
    {
     "min": 1160,
     "level": 0.93
+   },
+   {
+    "min": 1170,
+    "level": 0.92
    }
   ]
  },
