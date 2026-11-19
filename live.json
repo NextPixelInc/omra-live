@@ -1,17 +1,18 @@
 {
  "now": {
   "date": "2026-11-19",
-  "min": 1150,
-  "level": 0.75,
-  "from": "19:10",
-  "to": "19:10",
+  "min": 1160,
+  "level": 0.93,
+  "from": "19:20",
+  "to": "19:20",
   "frames": 4,
   "rings": {
-   "middle": 0.7,
-   "outer": 0.8
+   "inner": 0.95,
+   "middle": 0.93,
+   "outer": 0.9
   },
-  "note": "Mataf dense, foule compacte et assise sur les côtés avant l'adhan d'Isha, circulation plus fluide autour du Maqam.",
-  "prayer": false,
+  "note": "Mataf saturé de fidèles en rangs de prière concentriques serrés autour de la Ka‘bah, sans dalle visible, et galeries environnantes pleines aussi.",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -448,6 +449,10 @@
    {
     "min": 1150,
     "level": 0.75
+   },
+   {
+    "min": 1160,
+    "level": 0.93
    }
   ]
  },
