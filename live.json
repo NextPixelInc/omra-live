@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-19",
-  "min": 400,
+  "min": 410,
   "level": 0.86,
-  "from": "06:40",
-  "to": "06:40",
-  "frames": 6,
+  "from": "06:50",
+  "to": "06:50",
+  "frames": 3,
   "rings": {
-   "inner": 0.78,
+   "inner": 0.75,
    "middle": 0.88,
    "outer": 0.88
   },
-  "note": "Mataf très dense, plein jusqu'aux bords et aux premiers plans, seule la zone clôturée du Hijr près de la Ka‘bah reste dégagée.",
+  "note": "Mataf très dense, plein jusqu'aux bords, avec seulement un espace dégagé près de la Ka‘bah ; la foule circule.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -172,6 +172,10 @@
    },
    {
     "min": 400,
+    "level": 0.86
+   },
+   {
+    "min": 410,
     "level": 0.86
    }
   ]
