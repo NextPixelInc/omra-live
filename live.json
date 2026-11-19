@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-19",
-  "min": 1060,
-  "level": 0.55,
-  "from": "17:40",
-  "to": "17:40",
-  "frames": 2,
+  "min": 1070,
+  "level": 0.9,
+  "from": "17:50",
+  "to": "17:50",
+  "frames": 3,
   "rings": {
-   "inner": 0.3,
-   "middle": 0.6,
-   "outer": 0.85
+   "inner": 0.92,
+   "middle": 0.9,
+   "outer": 0.87
   },
-  "note": "Avant le Maghrib, les fidèles sont assis en blocs serrés sur les bords du Mataf tandis que l'espace central, délimité par des barrières, reste assez dégagé.",
+  "note": "Mataf saturé de fidèles en tenue blanche, alignés en rangs de prière du Maghrib, sans dalle visible, foule compacte jusqu'aux escaliers.",
   "prayer": true,
   "source": "direct Quran TV"
  },
@@ -417,6 +417,10 @@
    {
     "min": 1060,
     "level": 0.55
+   },
+   {
+    "min": 1070,
+    "level": 0.9
    }
   ]
  },
