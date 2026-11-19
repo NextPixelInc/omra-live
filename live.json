@@ -1,18 +1,17 @@
 {
  "now": {
   "date": "2026-11-19",
-  "min": 930,
-  "level": 0.8,
-  "from": "15:30",
-  "to": "15:30",
+  "min": 940,
+  "level": 0.6,
+  "from": "15:40",
+  "to": "15:40",
   "frames": 6,
   "rings": {
-   "inner": 0.9,
-   "middle": 0.85,
+   "middle": 0.58,
    "outer": 0.65
   },
-  "note": "Prière d'al-‘Asr : fidèles en rangs concentriques serrés autour de la Ka‘bah, bords de l'esplanade en partie dégagés sur les plans larges.",
-  "prayer": true,
+  "note": "Vue éloignée du Mataf : foule dense en bas et à droite, dalles encore visibles au centre, rangs de prière au début puis tawaf qui reprend.",
+  "prayer": false,
   "source": "direct Quran TV"
  },
  "day": {
@@ -369,6 +368,10 @@
    {
     "min": 930,
     "level": 0.8
+   },
+   {
+    "min": 940,
+    "level": 0.6
    }
   ]
  },
