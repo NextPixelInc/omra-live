@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-19",
-  "min": 1014,
-  "level": 0.8,
-  "from": "16:54",
-  "to": "16:54",
-  "frames": 6,
+  "min": 1020,
+  "level": 0.76,
+  "from": "17:00",
+  "to": "17:00",
+  "frames": 5,
   "rings": {
-   "inner": 0.9,
-   "middle": 0.82,
+   "inner": 0.78,
+   "middle": 0.76,
    "outer": 0.72
   },
-  "note": "Mataf très dense autour de la Ka‘bah et jusqu'au bord de l'esplanade, avec quelques zones plus claires sur les côtés et dans les galeries.",
+  "note": "Plan large du Mataf depuis un bord : foule dense en pèlerins en ihram qui avancent sans interruption, avec quelques espaces à gauche ; la 6e image est un fondu ",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -401,6 +401,10 @@
    {
     "min": 1014,
     "level": 0.8
+   },
+   {
+    "min": 1020,
+    "level": 0.76
    }
   ]
  },
