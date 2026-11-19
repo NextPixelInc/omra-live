@@ -1,16 +1,17 @@
 {
  "now": {
   "date": "2026-11-19",
-  "min": 890,
-  "level": 0.3,
-  "from": "14:50",
-  "to": "14:50",
+  "min": 900,
+  "level": 0.68,
+  "from": "15:00",
+  "to": "15:00",
   "frames": 6,
   "rings": {
-   "middle": 0.38,
-   "outer": 0.22
+   "inner": 0.8,
+   "middle": 0.7,
+   "outer": 0.5
   },
-  "note": "Vue large et plongeante sur l'esplanade, sans la Ka‘bah : foule moyenne et dispersée, dalles bien visibles surtout à droite, quelques groupes assis, sans rangs ",
+  "note": "Foule dense qui tourne autour de la Ka‘bah, avec des premiers plans et des bords plus clairsemés où les dalles se voient.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -356,6 +357,10 @@
    {
     "min": 890,
     "level": 0.3
+   },
+   {
+    "min": 900,
+    "level": 0.68
    }
   ]
  },
