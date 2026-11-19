@@ -1,18 +1,18 @@
 {
  "now": {
   "date": "2026-11-19",
-  "min": 290,
-  "level": 0.82,
-  "from": "04:50",
-  "to": "04:50",
+  "min": 320,
+  "level": 0.5,
+  "from": "05:20",
+  "to": "05:20",
   "frames": 6,
   "rings": {
-   "inner": 0.9,
-   "middle": 0.82,
-   "outer": 0.7
+   "inner": 0.15,
+   "middle": 0.4,
+   "outer": 0.88
   },
-  "note": "Mataf très dense autour de la Ka‘bah et dans les premiers plans, avec des bords plus lâches où des fidèles circulent entre des blocs compacts.",
-  "prayer": false,
+  "note": "Avant la prière de l'aube, le centre du Mataf est dégagé, avec quelques personnes isolées qui marchent, tandis que les bords et les étages sont pleins de fidèle",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -137,6 +137,10 @@
    {
     "min": 290,
     "level": 0.82
+   },
+   {
+    "min": 320,
+    "level": 0.5
    }
   ]
  },
