@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-19",
-  "min": 320,
-  "level": 0.5,
-  "from": "05:20",
-  "to": "05:20",
-  "frames": 6,
+  "min": 330,
+  "level": 0.85,
+  "from": "05:30",
+  "to": "05:30",
+  "frames": 2,
   "rings": {
-   "inner": 0.15,
-   "middle": 0.4,
-   "outer": 0.88
+   "inner": 0.88,
+   "middle": 0.86,
+   "outer": 0.78
   },
-  "note": "Avant la prière de l'aube, le centre du Mataf est dégagé, avec quelques personnes isolées qui marchent, tandis que les bords et les étages sont pleins de fidèle",
+  "note": "Mataf plein de fidèles en ihram blanc, sans dalles visibles jusqu'aux arcades, un peu plus lâche au fond ; la foule semble se tenir debout pour la prière du Faj",
   "prayer": true,
   "source": "direct Quran TV"
  },
@@ -141,6 +141,10 @@
    {
     "min": 320,
     "level": 0.5
+   },
+   {
+    "min": 330,
+    "level": 0.85
    }
   ]
  },
