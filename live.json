@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-19",
-  "min": 350,
-  "level": 0.7,
-  "from": "05:50",
-  "to": "05:50",
+  "min": 360,
+  "level": 0.88,
+  "from": "06:00",
+  "to": "06:00",
   "frames": 6,
   "rings": {
-   "inner": 0.8,
-   "middle": 0.7,
-   "outer": 0.62
+   "inner": 0.9,
+   "middle": 0.9,
+   "outer": 0.82
   },
-  "note": "Vue aérienne de nuit : Mataf dense autour de la Ka‘bah, foule en mouvement, bords et galeries un peu plus lâches.",
+  "note": "Mataf quasi saturé, foule compacte jusqu'aux bords, avec seulement quelques zones un peu plus claires en bas à droite.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -153,6 +153,10 @@
    {
     "min": 350,
     "level": 0.7
+   },
+   {
+    "min": 360,
+    "level": 0.88
    }
   ]
  },
