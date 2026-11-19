@@ -1,16 +1,17 @@
 {
  "now": {
   "date": "2026-11-19",
-  "min": 790,
-  "level": 0.68,
-  "from": "13:10",
-  "to": "13:10",
-  "frames": 6,
+  "min": 800,
+  "level": 0.82,
+  "from": "13:20",
+  "to": "13:20",
+  "frames": 3,
   "rings": {
-   "middle": 0.8,
-   "outer": 0.4
+   "inner": 0.85,
+   "middle": 0.85,
+   "outer": 0.72
   },
-  "note": "Foule très dense sur la droite du Mataf, tandis que la gauche et le premier plan restent assez dégagés, dalles visibles derrière les barrières.",
+  "note": "Mataf très dense sous la pluie, foule compacte jusqu'au premier plan, avec quelques dalles visibles sur le bord droit.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -320,6 +321,10 @@
    {
     "min": 790,
     "level": 0.68
+   },
+   {
+    "min": 800,
+    "level": 0.82
    }
   ]
  },
