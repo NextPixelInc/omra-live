@@ -1,17 +1,16 @@
 {
  "now": {
   "date": "2026-11-19",
-  "min": 720,
-  "level": 0.4,
-  "from": "12:00",
-  "to": "12:00",
-  "frames": 6,
+  "min": 730,
+  "level": 0.15,
+  "from": "12:10",
+  "to": "12:10",
+  "frames": 3,
   "rings": {
-   "inner": 0.6,
-   "middle": 0.38,
-   "outer": 0.2
+   "middle": 0.12,
+   "outer": 0.18
   },
-  "note": "Plan large sur le bord du Mataf : foule plus dense en bas à droite vers la Ka‘bah, mais dalles bien visibles et bords clairsemés ; fidèles en marche.",
+  "note": "Mataf clairsemé : grandes dalles blanches dégagées entre les barrières, quelques petits groupes de fidèles qui marchent.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -293,6 +292,10 @@
    {
     "min": 720,
     "level": 0.4
+   },
+   {
+    "min": 730,
+    "level": 0.15
    }
   ]
  },
