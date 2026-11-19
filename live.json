@@ -1,17 +1,16 @@
 {
  "now": {
   "date": "2026-11-19",
-  "min": 600,
-  "level": 0.85,
-  "from": "10:00",
-  "to": "10:00",
-  "frames": 4,
+  "min": 610,
+  "level": 0.3,
+  "from": "10:10",
+  "to": "10:10",
+  "frames": 6,
   "rings": {
-   "inner": 0.8,
-   "middle": 0.88,
-   "outer": 0.85
+   "middle": 0.35,
+   "outer": 0.22
   },
-  "note": "Mataf plein jusqu'aux bords, foule très dense qui tourne autour de la Ka‘bah, seul le cercle intérieur près du mur reste un peu dégagé.",
+  "note": "Vue aérienne de l'esplanade : fidèles dispersés qui marchent, dalles bien visibles surtout à droite et en bas, un peu plus de monde à gauche ; la Ka‘bah n'est p",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -245,6 +244,10 @@
    {
     "min": 600,
     "level": 0.85
+   },
+   {
+    "min": 610,
+    "level": 0.3
    }
   ]
  },
