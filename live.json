@@ -1,16 +1,17 @@
 {
  "now": {
   "date": "2026-11-19",
-  "min": 514,
+  "min": 520,
   "level": 0.6,
-  "from": "08:34",
-  "to": "08:34",
-  "frames": 6,
+  "from": "08:40",
+  "to": "08:40",
+  "frames": 1,
   "rings": {
-   "middle": 0.75,
-   "outer": 0.42
+   "inner": 0.75,
+   "middle": 0.6,
+   "outer": 0.35
   },
-  "note": "Foule dense côté droit, vers la Ka‘bah (hors champ), avec des bords gauche et du fond plus clairsemés où les dalles se voient.",
+  "note": "Foule dense autour de la Ka‘bah, surtout à gauche et à droite, mais premier plan et bords nettement plus clairsemés avec dalles visibles.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -207,6 +208,10 @@
    },
    {
     "min": 514,
+    "level": 0.6
+   },
+   {
+    "min": 520,
     "level": 0.6
    }
   ]
