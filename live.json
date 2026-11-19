@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-19",
-  "min": 480,
-  "level": 0.55,
-  "from": "08:00",
-  "to": "08:00",
-  "frames": 4,
+  "min": 490,
+  "level": 0.5,
+  "from": "08:10",
+  "to": "08:10",
+  "frames": 6,
   "rings": {
-   "inner": 0.7,
-   "middle": 0.55,
+   "inner": 0.65,
+   "middle": 0.5,
    "outer": 0.3
   },
-  "note": "Foule compacte autour de la Ka‘bah, mais le Mataf n'est vu que partiellement, coin droit, et ses bords restent dégagés.",
+  "note": "Foule dense en flux près de la Ka‘bah et en bas à droite, mais dalles bien visibles au centre et sur les bords à gauche.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -197,6 +197,10 @@
    {
     "min": 480,
     "level": 0.55
+   },
+   {
+    "min": 490,
+    "level": 0.5
    }
   ]
  },
