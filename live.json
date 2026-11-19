@@ -1,16 +1,17 @@
 {
  "now": {
   "date": "2026-11-19",
-  "min": 1410,
-  "level": 0.78,
-  "from": "23:30",
-  "to": "23:30",
-  "frames": 4,
+  "min": 1420,
+  "level": 0.88,
+  "from": "23:40",
+  "to": "23:40",
+  "frames": 6,
   "rings": {
-   "middle": 0.6,
-   "outer": 0.85
+   "inner": 0.9,
+   "middle": 0.9,
+   "outer": 0.82
   },
-  "note": "Foule très dense et compacte côté droit, zone centrale plus aérée avec dalles visibles, galerie de gauche presque vide ; la Ka‘bah n'est pas visible.",
+  "note": "Mataf saturé de pèlerins en blanc sur toute l'esplanade, sans dalle visible, bords à peine plus lâches.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -552,6 +553,10 @@
    {
     "min": 1410,
     "level": 0.78
+   },
+   {
+    "min": 1420,
+    "level": 0.88
    }
   ]
  },
