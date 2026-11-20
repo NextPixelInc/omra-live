@@ -1,16 +1,17 @@
 {
  "now": {
   "date": "2026-11-20",
-  "min": 1120,
-  "level": 0.78,
-  "from": "18:40",
-  "to": "18:40",
+  "min": 1130,
+  "level": 0.88,
+  "from": "18:50",
+  "to": "18:50",
   "frames": 6,
   "rings": {
-   "middle": 0.78,
-   "outer": 0.8
+   "inner": 0.85,
+   "middle": 0.9,
+   "outer": 0.88
   },
-  "note": "Esplanade dense et pleine jusqu'aux bords, avec seulement un couloir central dégagé. La Ka‘bah n'est pas visible et la foule semble stationnaire, en rangs.",
+  "note": "Mataf saturé, foule compacte jusqu'aux bords et aux galeries, avec des rangs courbes serrés au pied de la Ka‘bah.",
   "prayer": true,
   "source": "direct Quran TV"
  },
@@ -464,6 +465,10 @@
    {
     "min": 1120,
     "level": 0.78
+   },
+   {
+    "min": 1130,
+    "level": 0.88
    }
   ]
  },
