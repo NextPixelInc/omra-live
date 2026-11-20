@@ -1,18 +1,18 @@
 {
  "now": {
   "date": "2026-11-20",
-  "min": 1170,
-  "level": 0.85,
-  "from": "19:30",
-  "to": "19:30",
+  "min": 1180,
+  "level": 0.78,
+  "from": "19:40",
+  "to": "19:40",
   "frames": 6,
   "rings": {
-   "inner": 0.9,
-   "middle": 0.85,
-   "outer": 0.78
+   "inner": 0.85,
+   "middle": 0.8,
+   "outer": 0.62
   },
-  "note": "Mataf plein de fidèles en rangs concentriques de prière serrés autour de la Ka‘bah, avec un étroit passage dégagé en périphérie et les galeries déjà bien rempli",
-  "prayer": true,
+  "note": "Mataf dense et compact au premier plan et autour de la structure centrale, avec des bords plus lâches vers le fond à droite, et une foule qui circule sans rangs",
+  "prayer": false,
   "source": "direct Quran TV"
  },
  "day": {
@@ -485,6 +485,10 @@
    {
     "min": 1170,
     "level": 0.85
+   },
+   {
+    "min": 1180,
+    "level": 0.78
    }
   ]
  },
