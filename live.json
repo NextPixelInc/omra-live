@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-20",
-  "min": 620,
-  "level": 0.88,
-  "from": "10:20",
-  "to": "10:20",
+  "min": 630,
+  "level": 0.8,
+  "from": "10:30",
+  "to": "10:30",
   "frames": 6,
   "rings": {
-   "inner": 0.9,
-   "middle": 0.88,
-   "outer": 0.84
+   "inner": 0.85,
+   "middle": 0.8,
+   "outer": 0.75
   },
-  "note": "Mataf plein à craquer, foule compacte jusqu'aux bords, dalles quasi invisibles, avec un léger relâchement sur le bord droit.",
+  "note": "Vue aérienne : le Mataf, visible en partie à droite du cadre, est très dense et blanc de monde autour de la Ka‘bah, jusque vers les bords.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -269,6 +269,10 @@
    {
     "min": 620,
     "level": 0.88
+   },
+   {
+    "min": 630,
+    "level": 0.8
    }
   ]
  },
