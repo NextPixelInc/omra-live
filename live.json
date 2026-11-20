@@ -1,17 +1,16 @@
 {
  "now": {
   "date": "2026-11-20",
-  "min": 630,
-  "level": 0.8,
-  "from": "10:30",
-  "to": "10:30",
+  "min": 640,
+  "level": 0.88,
+  "from": "10:40",
+  "to": "10:40",
   "frames": 6,
   "rings": {
-   "inner": 0.85,
-   "middle": 0.8,
-   "outer": 0.75
+   "middle": 0.88,
+   "outer": 0.88
   },
-  "note": "Vue aérienne : le Mataf, visible en partie à droite du cadre, est très dense et blanc de monde autour de la Ka‘bah, jusque vers les bords.",
+  "note": "Foule très dense et compacte sur toute l'esplanade, jusqu'aux bords et au pied des arcades, sans dalles visibles ; la Ka‘bah n'est pas dans le champ.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -273,6 +272,10 @@
    {
     "min": 630,
     "level": 0.8
+   },
+   {
+    "min": 640,
+    "level": 0.88
    }
   ]
  },
