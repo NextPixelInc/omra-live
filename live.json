@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-20",
-  "min": 190,
-  "level": 0.68,
-  "from": "03:10",
-  "to": "03:10",
+  "min": 200,
+  "level": 0.9,
+  "from": "03:20",
+  "to": "03:20",
   "frames": 6,
   "rings": {
-   "inner": 0.85,
-   "middle": 0.7,
-   "outer": 0.45
+   "inner": 0.93,
+   "middle": 0.9,
+   "outer": 0.85
   },
-  "note": "Vue aérienne : foule dense et continue autour de la Ka‘bah, bords et zone de premier plan nettement plus clairsemés avec de larges dalles visibles.",
+  "note": "Mataf saturé de pèlerins, foule compacte jusqu'aux bords et aux galeries, sans dalles visibles, avec seulement un petit espace libre près du Hijr.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -97,6 +97,10 @@
    {
     "min": 190,
     "level": 0.68
+   },
+   {
+    "min": 200,
+    "level": 0.9
    }
   ]
  },
