@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-20",
-  "min": 334,
-  "level": 0.85,
-  "from": "05:33",
-  "to": "05:34",
-  "frames": 6,
+  "min": 340,
+  "level": 0.9,
+  "from": "05:40",
+  "to": "05:40",
+  "frames": 2,
   "rings": {
-   "inner": 0.9,
-   "middle": 0.86,
-   "outer": 0.8
+   "inner": 0.95,
+   "middle": 0.92,
+   "outer": 0.85
   },
-  "note": "Mataf plein en rangs de prière concentriques serrés autour de la Ka‘bah (Fajr), jusqu'aux bords et aux galeries, sans dalles visibles.",
+  "note": "Mataf plein à craquer pour la prière de l'aube, rangs concentriques serrés autour de la Ka‘bah jusqu'aux bords, sans dalles visibles.",
   "prayer": true,
   "source": "direct Quran TV"
  },
@@ -153,6 +153,10 @@
    {
     "min": 334,
     "level": 0.85
+   },
+   {
+    "min": 340,
+    "level": 0.9
    }
   ]
  },
