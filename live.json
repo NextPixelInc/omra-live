@@ -1,16 +1,17 @@
 {
  "now": {
   "date": "2026-11-20",
-  "min": 731,
-  "level": 0.87,
-  "from": "12:10",
-  "to": "12:11",
-  "frames": 1,
+  "min": 741,
+  "level": 0.94,
+  "from": "12:20",
+  "to": "12:21",
+  "frames": 5,
   "rings": {
-   "middle": 0.9,
-   "outer": 0.82
+   "inner": 0.85,
+   "middle": 0.96,
+   "outer": 0.95
   },
-  "note": "Foule très dense en rangs serrés avant la prière du vendredi, presque plus de dalles visibles, quelques allées dégagées sur les bords.",
+  "note": "Mataf saturé de fidèles en blanc alignés en rangs pour la prière du vendredi, sans dalle visible, avec seulement un peu d'espace libre au pied de la Ka‘bah.",
   "prayer": true,
   "source": "direct Quran TV"
  },
@@ -312,6 +313,10 @@
    {
     "min": 731,
     "level": 0.87
+   },
+   {
+    "min": 741,
+    "level": 0.94
    }
   ]
  },
