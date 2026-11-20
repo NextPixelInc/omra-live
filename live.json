@@ -1,16 +1,17 @@
 {
  "now": {
   "date": "2026-11-20",
-  "min": 420,
-  "level": 0.25,
-  "from": "07:00",
-  "to": "07:00",
+  "min": 430,
+  "level": 0.85,
+  "from": "07:10",
+  "to": "07:10",
   "frames": 6,
   "rings": {
-   "middle": 0.25,
-   "outer": 0.3
+   "inner": 0.9,
+   "middle": 0.85,
+   "outer": 0.78
   },
-  "note": "Vue aérienne de l'esplanade avec des fidèles épars, dalles bien visibles, un peu plus de monde vers la fin ; la Ka‘bah n'est pas nettement visible.",
+  "note": "Mataf très dense et plein jusqu'aux arcades, foule en mouvement autour de la Ka‘bah, bords un peu plus lâches, galerie de droite presque vide.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -188,6 +189,10 @@
    {
     "min": 420,
     "level": 0.25
+   },
+   {
+    "min": 430,
+    "level": 0.85
    }
   ]
  },
