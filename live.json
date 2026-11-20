@@ -1,16 +1,17 @@
 {
  "now": {
   "date": "2026-11-20",
-  "min": 701,
-  "level": 0.85,
-  "from": "11:41",
-  "to": "11:41",
+  "min": 710,
+  "level": 0.9,
+  "from": "11:50",
+  "to": "11:50",
   "frames": 6,
   "rings": {
-   "middle": 0.88,
-   "outer": 0.7
+   "inner": 0.85,
+   "middle": 0.92,
+   "outer": 0.92
   },
-  "note": "Foule très dense en tenue blanche, alignée en rangs avant la prière de midi (adhan), avec des bords plus clairsemés et des dalles visibles au loin.",
+  "note": "Mataf saturé de fidèles sur toute l'esplanade jusqu'aux bords, en rangs concentriques serrés, avec seulement un petit espace dégagé au pied de la Ka‘bah.",
   "prayer": true,
   "source": "direct Quran TV"
  },
@@ -300,6 +301,10 @@
    {
     "min": 701,
     "level": 0.85
+   },
+   {
+    "min": 710,
+    "level": 0.9
    }
   ]
  },
