@@ -1,14 +1,18 @@
 {
  "now": {
   "date": "2026-11-20",
-  "min": 1070,
-  "level": 0.93,
-  "from": "17:50",
-  "to": "17:50",
-  "frames": 3,
-  "rings": {},
-  "note": "Foule compacte en prière à l'heure du Maghrib, tout en blanc, sans aucune dalle visible, puis fidèles en prosternation ; les plans larges ne montrent pas la dis",
-  "prayer": true,
+  "min": 1084,
+  "level": 0.72,
+  "from": "18:04",
+  "to": "18:04",
+  "frames": 6,
+  "rings": {
+   "inner": 0.8,
+   "middle": 0.74,
+   "outer": 0.6
+  },
+  "note": "Mataf dense au premier plan et près de la Ka‘bah, avec des zones plus claires et des dalles visibles vers le fond et les bords.",
+  "prayer": false,
   "source": "direct Quran TV"
  },
  "day": {
@@ -441,6 +445,10 @@
    {
     "min": 1070,
     "level": 0.93
+   },
+   {
+    "min": 1084,
+    "level": 0.72
    }
   ]
  },
