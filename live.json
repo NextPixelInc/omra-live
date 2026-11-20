@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-20",
-  "min": 610,
+  "min": 620,
   "level": 0.88,
-  "from": "10:10",
-  "to": "10:10",
-  "frames": 5,
+  "from": "10:20",
+  "to": "10:20",
+  "frames": 6,
   "rings": {
-   "inner": 0.92,
-   "middle": 0.9,
-   "outer": 0.85
+   "inner": 0.9,
+   "middle": 0.88,
+   "outer": 0.84
   },
-  "note": "Mataf saturé de fidèles en blanc jusqu'aux bords, sans dalle visible, avec quelques parasols au premier plan.",
+  "note": "Mataf plein à craquer, foule compacte jusqu'aux bords, dalles quasi invisibles, avec un léger relâchement sur le bord droit.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -264,6 +264,10 @@
    },
    {
     "min": 610,
+    "level": 0.88
+   },
+   {
+    "min": 620,
     "level": 0.88
    }
   ]
