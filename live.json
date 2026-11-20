@@ -1,18 +1,17 @@
 {
  "now": {
   "date": "2026-11-20",
-  "min": 930,
-  "level": 0.76,
-  "from": "15:30",
-  "to": "15:30",
-  "frames": 6,
+  "min": 944,
+  "level": 0.7,
+  "from": "15:44",
+  "to": "15:44",
+  "frames": 2,
   "rings": {
-   "inner": 0.9,
-   "middle": 0.8,
+   "middle": 0.78,
    "outer": 0.55
   },
-  "note": "Mataf dense, fidèles en rangs de prière serrés en arcs autour de la Ka‘bah, avec les dalles dégagées au premier plan et sur les bords.",
-  "prayer": true,
+  "note": "Mataf dense côté droit et au premier plan, plus clairsemé vers le bord gauche où les dalles apparaissent, foule en mouvement.",
+  "prayer": false,
   "source": "direct Quran TV"
  },
  "day": {
@@ -393,6 +392,10 @@
    {
     "min": 930,
     "level": 0.76
+   },
+   {
+    "min": 944,
+    "level": 0.7
    }
   ]
  },
