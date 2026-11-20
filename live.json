@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-20",
-  "min": 370,
-  "level": 0.8,
-  "from": "06:10",
-  "to": "06:10",
+  "min": 380,
+  "level": 0.88,
+  "from": "06:20",
+  "to": "06:20",
   "frames": 6,
   "rings": {
    "inner": 0.9,
-   "middle": 0.82,
-   "outer": 0.6
+   "middle": 0.9,
+   "outer": 0.85
   },
-  "note": "Mataf très dense à droite, foule compacte jusqu'aux galeries, tandis que la zone de gauche reste plus fluide avec des dalles visibles.",
+  "note": "Mataf plein jusqu'aux bords, foule très compacte sans dalles visibles, avec du monde jusque sur les galeries.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -169,6 +169,10 @@
    {
     "min": 370,
     "level": 0.8
+   },
+   {
+    "min": 380,
+    "level": 0.88
    }
   ]
  },
