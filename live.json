@@ -1,18 +1,18 @@
 {
  "now": {
   "date": "2026-11-20",
-  "min": 910,
-  "level": 0.6,
-  "from": "15:10",
-  "to": "15:10",
+  "min": 920,
+  "level": 0.45,
+  "from": "15:20",
+  "to": "15:20",
   "frames": 6,
   "rings": {
-   "inner": 0.8,
-   "middle": 0.6,
-   "outer": 0.35
+   "inner": 0.85,
+   "middle": 0.4,
+   "outer": 0.2
   },
-  "note": "Foule dense autour de la Ka‘bah, qui tourne en tawaf, avec des premiers plans et des bords plus clairsemés où les dalles se voient.",
-  "prayer": false,
+  "note": "Mataf clairsemé sur les bords, avec des rangs serrés près de la Ka‘bah qui se forment avant la prière d'al-‘Asr, et des dalles bien visibles au milieu.",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -385,6 +385,10 @@
    {
     "min": 910,
     "level": 0.6
+   },
+   {
+    "min": 920,
+    "level": 0.45
    }
   ]
  },
