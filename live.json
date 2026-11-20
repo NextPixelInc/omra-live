@@ -1,18 +1,18 @@
 {
  "now": {
   "date": "2026-11-20",
-  "min": 320,
-  "level": 0.35,
-  "from": "05:20",
-  "to": "05:20",
-  "frames": 5,
+  "min": 334,
+  "level": 0.85,
+  "from": "05:33",
+  "to": "05:34",
+  "frames": 6,
   "rings": {
-   "inner": 0.25,
-   "middle": 0.35,
-   "outer": 0.5
+   "inner": 0.9,
+   "middle": 0.86,
+   "outer": 0.8
   },
-  "note": "Le Mataf est clairsemé près de la Ka‘bah, avec quelques marcheurs et des dalles bien visibles, tandis que la foule assise s'entasse derrière les barrières, sur ",
-  "prayer": false,
+  "note": "Mataf plein en rangs de prière concentriques serrés autour de la Ka‘bah (Fajr), jusqu'aux bords et aux galeries, sans dalles visibles.",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -149,6 +149,10 @@
    {
     "min": 320,
     "level": 0.35
+   },
+   {
+    "min": 334,
+    "level": 0.85
    }
   ]
  },
