@@ -1,18 +1,18 @@
 {
  "now": {
   "date": "2026-11-20",
-  "min": 1140,
-  "level": 0.85,
-  "from": "19:00",
-  "to": "19:00",
-  "frames": 6,
+  "min": 1150,
+  "level": 0.78,
+  "from": "19:10",
+  "to": "19:10",
+  "frames": 5,
   "rings": {
-   "inner": 0.85,
-   "middle": 0.9,
-   "outer": 0.82
+   "inner": 0.7,
+   "middle": 0.8,
+   "outer": 0.78
   },
-  "note": "Mataf plein jusqu'aux bords, foule très compacte tout autour de la Ka‘bah, avec seulement quelques zones plus claires près des dalles à droite.",
-  "prayer": false,
+  "note": "Foule très dense jusqu'aux bords et aux étages, fidèles assis en rangs avant la prière d'Isha, avec seulement quelques dalles dégagées et une allée presque vide",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -473,6 +473,10 @@
    {
     "min": 1140,
     "level": 0.85
+   },
+   {
+    "min": 1150,
+    "level": 0.78
    }
   ]
  },
