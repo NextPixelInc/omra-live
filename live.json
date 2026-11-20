@@ -1,18 +1,18 @@
 {
  "now": {
   "date": "2026-11-20",
-  "min": 980,
-  "level": 0.85,
-  "from": "16:20",
-  "to": "16:20",
-  "frames": 5,
+  "min": 990,
+  "level": 0.8,
+  "from": "16:30",
+  "to": "16:30",
+  "frames": 6,
   "rings": {
-   "inner": 0.92,
-   "middle": 0.85,
-   "outer": 0.6
+   "inner": 0.9,
+   "middle": 0.82,
+   "outer": 0.65
   },
-  "note": "Foule très compacte et immobile autour de la Ka‘bah, jusqu'à la bordure barrière, tandis que l'esplanade côté gauche reste clairsemée avec quelques fidèles disp",
-  "prayer": true,
+  "note": "Mataf très dense autour de la Ka‘bah et à mi-distance, avec des premiers plans un peu plus lâches où les dalles apparaissent par endroits ; la foule semble circ",
+  "prayer": false,
   "source": "direct Quran TV"
  },
  "day": {
@@ -413,6 +413,10 @@
    {
     "min": 980,
     "level": 0.85
+   },
+   {
+    "min": 990,
+    "level": 0.8
    }
   ]
  },
