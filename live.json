@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-20",
-  "min": 400,
-  "level": 0.88,
-  "from": "06:40",
-  "to": "06:40",
+  "min": 410,
+  "level": 0.9,
+  "from": "06:50",
+  "to": "06:50",
   "frames": 6,
   "rings": {
-   "inner": 0.88,
+   "inner": 0.92,
    "middle": 0.92,
-   "outer": 0.9
+   "outer": 0.88
   },
-  "note": "Mataf très dense et saturé : foule compacte jusqu'aux bords et au premier plan, aucune dalle visible, avec une circulation continue autour de la Ka‘bah.",
+  "note": "Mataf saturé de pèlerins en ihram, sans dalle visible, foule compacte jusqu'aux arcades et sans rangs de prière nets.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -181,6 +181,10 @@
    {
     "min": 400,
     "level": 0.88
+   },
+   {
+    "min": 410,
+    "level": 0.9
    }
   ]
  },
