@@ -1,17 +1,16 @@
 {
  "now": {
   "date": "2026-11-20",
-  "min": 260,
-  "level": 0.9,
-  "from": "04:20",
-  "to": "04:20",
-  "frames": 4,
+  "min": 270,
+  "level": 0.8,
+  "from": "04:30",
+  "to": "04:30",
+  "frames": 6,
   "rings": {
-   "inner": 0.93,
-   "middle": 0.92,
-   "outer": 0.86
+   "middle": 0.85,
+   "outer": 0.65
   },
-  "note": "Mataf saturé, foule compacte sur toute l'esplanade jusqu'aux bords, sans dalles visibles ; les images 1 et 2 (couloir d'accès) sont ignorées.",
+  "note": "Foule très dense sur les plans larges, avec un bord proche plus fluide où les fidèles circulent, et les étages bien remplis.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -125,6 +124,10 @@
    {
     "min": 260,
     "level": 0.9
+   },
+   {
+    "min": 270,
+    "level": 0.8
    }
   ]
  },
