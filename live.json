@@ -1,16 +1,17 @@
 {
  "now": {
   "date": "2026-11-20",
-  "min": 500,
-  "level": 0.68,
-  "from": "08:20",
-  "to": "08:20",
+  "min": 510,
+  "level": 0.85,
+  "from": "08:30",
+  "to": "08:30",
   "frames": 6,
   "rings": {
-   "middle": 0.8,
-   "outer": 0.5
+   "inner": 0.85,
+   "middle": 0.88,
+   "outer": 0.82
   },
-  "note": "Vue plongeante sur le Mataf : foule très dense à droite et au centre, bord à gauche presque dégagé avec dalles visibles, sans que la Ka‘bah apparaisse.",
+  "note": "Mataf très dense sur toute l'esplanade, foule compacte jusqu'aux bords et aux arcades, avec quelques espaces un peu plus lâches au premier plan à droite.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -220,6 +221,10 @@
    {
     "min": 500,
     "level": 0.68
+   },
+   {
+    "min": 510,
+    "level": 0.85
    }
   ]
  },
