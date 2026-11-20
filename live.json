@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-21",
-  "min": 130,
-  "level": 0.6,
-  "from": "02:10",
-  "to": "02:10",
-  "frames": 6,
+  "min": 140,
+  "level": 0.8,
+  "from": "02:20",
+  "to": "02:20",
+  "frames": 1,
   "rings": {
-   "inner": 0.85,
-   "middle": 0.6,
-   "outer": 0.38
+   "inner": 0.75,
+   "middle": 0.82,
+   "outer": 0.78
   },
-  "note": "Foule compacte autour de la Ka‘bah qui tourne, avec des zones plus clairsemées et des dalles visibles sur les bords, surtout en haut et à gauche.",
+  "note": "Seule la première image montre le Mataf : foule dense tout autour de la Ka‘bah, jusqu'aux bords du premier plan ; les autres images montrent l'esplanade extérie",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -73,6 +73,10 @@
    {
     "min": 130,
     "level": 0.6
+   },
+   {
+    "min": 140,
+    "level": 0.8
    }
   ]
  },
