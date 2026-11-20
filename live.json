@@ -1,17 +1,16 @@
 {
  "now": {
   "date": "2026-11-20",
-  "min": 410,
-  "level": 0.9,
-  "from": "06:50",
-  "to": "06:50",
+  "min": 420,
+  "level": 0.25,
+  "from": "07:00",
+  "to": "07:00",
   "frames": 6,
   "rings": {
-   "inner": 0.92,
-   "middle": 0.92,
-   "outer": 0.88
+   "middle": 0.25,
+   "outer": 0.3
   },
-  "note": "Mataf saturé de pèlerins en ihram, sans dalle visible, foule compacte jusqu'aux arcades et sans rangs de prière nets.",
+  "note": "Vue aérienne de l'esplanade avec des fidèles épars, dalles bien visibles, un peu plus de monde vers la fin ; la Ka‘bah n'est pas nettement visible.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -185,6 +184,10 @@
    {
     "min": 410,
     "level": 0.9
+   },
+   {
+    "min": 420,
+    "level": 0.25
    }
   ]
  },
