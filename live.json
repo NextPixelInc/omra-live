@@ -1,16 +1,17 @@
 {
  "now": {
   "date": "2026-11-20",
-  "min": 640,
-  "level": 0.88,
-  "from": "10:40",
-  "to": "10:40",
+  "min": 650,
+  "level": 0.9,
+  "from": "10:50",
+  "to": "10:50",
   "frames": 6,
   "rings": {
-   "middle": 0.88,
-   "outer": 0.88
+   "inner": 0.92,
+   "middle": 0.9,
+   "outer": 0.86
   },
-  "note": "Foule très dense et compacte sur toute l'esplanade, jusqu'aux bords et au pied des arcades, sans dalles visibles ; la Ka‘bah n'est pas dans le champ.",
+  "note": "Mataf saturé de pèlerins en blanc, serrés jusqu'aux bords et aux galeries, sans dalles visibles ; la foule semble en mouvement autour de la Ka‘bah.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -276,6 +277,10 @@
    {
     "min": 640,
     "level": 0.88
+   },
+   {
+    "min": 650,
+    "level": 0.9
    }
   ]
  },
