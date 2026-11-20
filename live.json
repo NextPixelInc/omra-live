@@ -1,18 +1,17 @@
 {
  "now": {
   "date": "2026-11-20",
-  "min": 690,
-  "level": 0.87,
-  "from": "11:30",
-  "to": "11:30",
+  "min": 701,
+  "level": 0.85,
+  "from": "11:41",
+  "to": "11:41",
   "frames": 6,
   "rings": {
-   "inner": 0.82,
-   "middle": 0.9,
-   "outer": 0.88
+   "middle": 0.88,
+   "outer": 0.7
   },
-  "note": "Mataf plein jusqu'aux bords, foule compacte en vêtements blancs sur tout l'esplanade, avec un peu plus d'espace au pied de la Ka‘bah.",
-  "prayer": false,
+  "note": "Foule très dense en tenue blanche, alignée en rangs avant la prière de midi (adhan), avec des bords plus clairsemés et des dalles visibles au loin.",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -297,6 +296,10 @@
    {
     "min": 690,
     "level": 0.87
+   },
+   {
+    "min": 701,
+    "level": 0.85
    }
   ]
  },
