@@ -1,15 +1,17 @@
 {
  "now": {
   "date": "2026-11-20",
-  "min": 1270,
-  "level": 0.72,
-  "from": "21:10",
-  "to": "21:10",
-  "frames": 2,
+  "min": 1280,
+  "level": 0.78,
+  "from": "21:20",
+  "to": "21:20",
+  "frames": 6,
   "rings": {
-   "outer": 0.72
+   "inner": 0.88,
+   "middle": 0.8,
+   "outer": 0.62
   },
-  "note": "Seul un coin du Mataf est visible en bas à droite : foule dense et serrée sous les arcades, sans voir la Ka‘bah, tandis que les terrasses alentour sont clairsem",
+  "note": "Mataf très dense autour de la Ka‘bah et à mi-distance, bords gauche et avant plus clairsemés avec quelques dalles visibles, foule en mouvement.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -523,6 +525,10 @@
    {
     "min": 1270,
     "level": 0.72
+   },
+   {
+    "min": 1280,
+    "level": 0.78
    }
   ]
  },
