@@ -1,17 +1,15 @@
 {
  "now": {
   "date": "2026-11-20",
-  "min": 741,
-  "level": 0.94,
-  "from": "12:20",
-  "to": "12:21",
-  "frames": 5,
+  "min": 751,
+  "level": 0.93,
+  "from": "12:30",
+  "to": "12:31",
+  "frames": 1,
   "rings": {
-   "inner": 0.85,
-   "middle": 0.96,
-   "outer": 0.95
+   "middle": 0.93
   },
-  "note": "Mataf saturé de fidèles en blanc alignés en rangs pour la prière du vendredi, sans dalle visible, avec seulement un peu d'espace libre au pied de la Ka‘bah.",
+  "note": "Seule l'image 6 montre le Mataf : foule en ihram blanc, compacte, sans dalle visible, debout à l'arrêt pendant la khutbah ; les autres images montrent des galer",
   "prayer": true,
   "source": "direct Quran TV"
  },
@@ -317,6 +315,10 @@
    {
     "min": 741,
     "level": 0.94
+   },
+   {
+    "min": 751,
+    "level": 0.93
    }
   ]
  },
