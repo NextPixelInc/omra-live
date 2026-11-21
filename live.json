@@ -1,18 +1,18 @@
 {
  "now": {
   "date": "2026-11-21",
-  "min": 930,
-  "level": 0.5,
-  "from": "15:30",
-  "to": "15:30",
-  "frames": 3,
+  "min": 944,
+  "level": 0.7,
+  "from": "15:44",
+  "to": "15:44",
+  "frames": 6,
   "rings": {
-   "inner": 0.45,
-   "middle": 0.65,
-   "outer": 0.35
+   "inner": 0.85,
+   "middle": 0.7,
+   "outer": 0.5
   },
-  "note": "Fidèles en rangs de prière d'Asr en arcs serrés autour de la Ka‘bah, avec de larges dalles dégagées près de la Ka‘bah et sur les bords.",
-  "prayer": true,
+  "note": "Vue aérienne : Mataf dense autour de la Ka‘bah, foule plus clairsemée vers les bords, dalles visibles en périphérie, mouvement circulaire.",
+  "prayer": false,
   "source": "direct Quran TV"
  },
  "day": {
@@ -393,6 +393,10 @@
    {
     "min": 930,
     "level": 0.5
+   },
+   {
+    "min": 944,
+    "level": 0.7
    }
   ]
  },
