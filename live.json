@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-21",
-  "min": 1010,
-  "level": 0.86,
-  "from": "16:50",
-  "to": "16:50",
-  "frames": 5,
+  "min": 1020,
+  "level": 0.76,
+  "from": "17:00",
+  "to": "17:00",
+  "frames": 6,
   "rings": {
-   "inner": 0.88,
-   "middle": 0.87,
-   "outer": 0.82
+   "inner": 0.85,
+   "middle": 0.8,
+   "outer": 0.62
   },
-  "note": "Mataf plein à craquer jusqu'aux bords, aucune dalle visible, foule compacte en tawaf autour de la Ka‘bah (frame-1 écartée : plan rapproché de pèlerins, Mataf no",
+  "note": "Mataf dense autour de la Ka‘bah et à mi-distance, bords un peu plus lâches avec quelques dalles visibles et des zones claires en périphérie.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -425,6 +425,10 @@
    {
     "min": 1010,
     "level": 0.86
+   },
+   {
+    "min": 1020,
+    "level": 0.76
    }
   ]
  },
