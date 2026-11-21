@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-21",
-  "min": 520,
-  "level": 0.68,
-  "from": "08:40",
-  "to": "08:40",
+  "min": 530,
+  "level": 0.62,
+  "from": "08:50",
+  "to": "08:50",
   "frames": 6,
   "rings": {
    "inner": 0.85,
-   "middle": 0.68,
-   "outer": 0.5
+   "middle": 0.65,
+   "outer": 0.35
   },
-  "note": "Foule dense et compacte autour de la Ka‘bah, qui s'éclaircit vers les bords où les dalles restent visibles, surtout à gauche et au premier plan.",
+  "note": "Foule dense autour de la Ka‘bah, qui s'éclaircit vers les bords où les dalles apparaissent, surtout en haut et à gauche ; la masse tourne en tawaf.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -229,6 +229,10 @@
    {
     "min": 520,
     "level": 0.68
+   },
+   {
+    "min": 530,
+    "level": 0.62
    }
   ]
  },
