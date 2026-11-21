@@ -1,18 +1,17 @@
 {
  "now": {
   "date": "2026-11-21",
-  "min": 1060,
-  "level": 0.72,
-  "from": "17:40",
-  "to": "17:40",
-  "frames": 3,
+  "min": 1075,
+  "level": 0.92,
+  "from": "17:54",
+  "to": "17:55",
+  "frames": 2,
   "rings": {
-   "inner": 0.82,
-   "middle": 0.75,
-   "outer": 0.55
+   "middle": 0.93,
+   "outer": 0.9
   },
-  "note": "Mataf dense autour du Maqam, avec des bords plus lâches où les dalles blanches restent visibles.",
-  "prayer": false,
+  "note": "Mataf saturé de fidèles en rangs de prière concentriques serrés, sans dalle visible (vues larges des images 5 et 6 seulement).",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -445,6 +444,10 @@
    {
     "min": 1060,
     "level": 0.72
+   },
+   {
+    "min": 1075,
+    "level": 0.92
    }
   ]
  },
