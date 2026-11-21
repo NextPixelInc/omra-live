@@ -1,16 +1,17 @@
 {
  "now": {
   "date": "2026-11-21",
-  "min": 710,
-  "level": 0.75,
-  "from": "11:50",
-  "to": "11:50",
-  "frames": 3,
+  "min": 720,
+  "level": 0.66,
+  "from": "12:00",
+  "to": "12:00",
+  "frames": 6,
   "rings": {
-   "middle": 0.76,
-   "outer": 0.72
+   "inner": 0.85,
+   "middle": 0.65,
+   "outer": 0.4
   },
-  "note": "Foule dense et continue sur le Mataf, sans dalles visibles, pèlerins en mouvement et sans rangs de prière.",
+  "note": "Foule compacte près de la Ka‘bah et côté droit, mais premiers plans et bords gauches dégagés avec dalles bien visibles.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -304,6 +305,10 @@
    {
     "min": 710,
     "level": 0.75
+   },
+   {
+    "min": 720,
+    "level": 0.66
    }
   ]
  },
