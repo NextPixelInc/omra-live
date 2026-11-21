@@ -1,16 +1,15 @@
 {
  "now": {
   "date": "2026-11-21",
-  "min": 310,
+  "min": 320,
   "level": 0.6,
-  "from": "05:10",
-  "to": "05:10",
-  "frames": 6,
+  "from": "05:20",
+  "to": "05:20",
+  "frames": 3,
   "rings": {
-   "middle": 0.7,
-   "outer": 0.4
+   "outer": 0.62
   },
-  "note": "Foule assise en rangs serrés sur les bandes du milieu, avec un premier plan et des bords beaucoup plus dégagés, dalles claires visibles.",
+  "note": "Seuls les bords du Mataf sont visibles (images 4 à 6) : foule installée en rangs derrière des sièges blancs, avec un passage dégagé où quelques fidèles marchent",
   "prayer": true,
   "source": "direct Quran TV"
  },
@@ -143,6 +142,10 @@
    },
    {
     "min": 310,
+    "level": 0.6
+   },
+   {
+    "min": 320,
     "level": 0.6
    }
   ]
