@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-21",
-  "min": 1200,
-  "level": 0.82,
-  "from": "20:00",
-  "to": "20:00",
-  "frames": 3,
+  "min": 1210,
+  "level": 0.78,
+  "from": "20:10",
+  "to": "20:10",
+  "frames": 6,
   "rings": {
-   "inner": 0.86,
-   "middle": 0.82,
-   "outer": 0.77
+   "inner": 0.85,
+   "middle": 0.78,
+   "outer": 0.66
   },
-  "note": "Mataf très dense, foule compacte autour de la Ka‘bah et jusqu'aux bords, avec quelques dalles visibles en bas à gauche ; les images 4 à 6 montrent un autre sect",
+  "note": "Mataf très dense autour de la Ka‘bah, avec des bords un peu plus lâches (dalles visibles à droite et en bas) ; les plans plus bas montrent une foule compacte en",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -501,6 +501,10 @@
    {
     "min": 1200,
     "level": 0.82
+   },
+   {
+    "min": 1210,
+    "level": 0.78
    }
   ]
  },
