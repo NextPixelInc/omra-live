@@ -1,18 +1,18 @@
 {
  "now": {
   "date": "2026-11-21",
-  "min": 750,
-  "level": 0.66,
-  "from": "12:30",
-  "to": "12:30",
+  "min": 760,
+  "level": 0.45,
+  "from": "12:40",
+  "to": "12:40",
   "frames": 6,
   "rings": {
-   "inner": 0.45,
-   "middle": 0.65,
-   "outer": 0.85
+   "inner": 0.7,
+   "middle": 0.5,
+   "outer": 0.28
   },
-  "note": "Foule dense et serrée sur les bords, en rangs alignés à gauche, tandis que le centre près du Maqam reste plus clairsemé avec des dalles visibles.",
-  "prayer": true,
+  "note": "Foule assez dense au pied de la Ka‘bah, mais l'esplanade extérieure est largement dégagée, avec des fidèles épars et des dalles bien visibles.",
+  "prayer": false,
   "source": "direct Quran TV"
  },
  "day": {
@@ -321,6 +321,10 @@
    {
     "min": 750,
     "level": 0.66
+   },
+   {
+    "min": 760,
+    "level": 0.45
    }
   ]
  },
