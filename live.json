@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-21",
-  "min": 840,
-  "level": 0.6,
-  "from": "14:00",
-  "to": "14:00",
+  "min": 854,
+  "level": 0.5,
+  "from": "14:14",
+  "to": "14:14",
   "frames": 6,
   "rings": {
-   "inner": 0.85,
-   "middle": 0.6,
+   "inner": 0.7,
+   "middle": 0.5,
    "outer": 0.3
   },
-  "note": "Foule dense serrée autour de la Ka‘bah, mi-distance bien remplie, bords et esplanade du fond clairsemés avec dalles visibles.",
+  "note": "Vue aérienne : foule dense autour de la Ka‘bah, qui s'éclaircit vers les bords, dalles visibles en périphérie, et mouvement circulaire apparent.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -357,6 +357,10 @@
    {
     "min": 840,
     "level": 0.6
+   },
+   {
+    "min": 854,
+    "level": 0.5
    }
   ]
  },
