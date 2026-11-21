@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-21",
-  "min": 540,
-  "level": 0.6,
-  "from": "09:00",
-  "to": "09:00",
+  "min": 550,
+  "level": 0.75,
+  "from": "09:10",
+  "to": "09:10",
   "frames": 6,
   "rings": {
-   "inner": 0.85,
-   "middle": 0.55,
-   "outer": 0.3
+   "inner": 0.88,
+   "middle": 0.75,
+   "outer": 0.6
   },
-  "note": "Foule compacte et dense près de la Ka‘bah à gauche, qui s'étend peu à peu au fil des images, tandis que les bords et la partie droite de l'esplanade restent cla",
+  "note": "Mataf dense et compact près de la Ka‘bah à gauche, avec des bords à droite plus clairsemés où les dalles restent visibles ; les fidèles circulent.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -237,6 +237,10 @@
    {
     "min": 540,
     "level": 0.6
+   },
+   {
+    "min": 550,
+    "level": 0.75
    }
   ]
  },
