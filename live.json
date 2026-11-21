@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-21",
-  "min": 760,
-  "level": 0.45,
-  "from": "12:40",
-  "to": "12:40",
+  "min": 770,
+  "level": 0.6,
+  "from": "12:50",
+  "to": "12:50",
   "frames": 6,
   "rings": {
-   "inner": 0.7,
-   "middle": 0.5,
-   "outer": 0.28
+   "inner": 0.5,
+   "middle": 0.7,
+   "outer": 0.5
   },
-  "note": "Foule assez dense au pied de la Ka‘bah, mais l'esplanade extérieure est largement dégagée, avec des fidèles épars et des dalles bien visibles.",
+  "note": "Mataf très dense côté gauche, mais l'espace est dégagé à droite et près de la Ka‘bah, où les dalles restent visibles ; la foule circule.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -325,6 +325,10 @@
    {
     "min": 760,
     "level": 0.45
+   },
+   {
+    "min": 770,
+    "level": 0.6
    }
   ]
  },
