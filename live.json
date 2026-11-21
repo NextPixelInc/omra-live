@@ -1,17 +1,16 @@
 {
  "now": {
   "date": "2026-11-21",
-  "min": 1380,
+  "min": 1390,
   "level": 0.8,
-  "from": "23:00",
-  "to": "23:00",
+  "from": "23:10",
+  "to": "23:10",
   "frames": 6,
   "rings": {
-   "inner": 0.9,
-   "middle": 0.8,
-   "outer": 0.7
+   "middle": 0.82,
+   "outer": 0.76
   },
-  "note": "Mataf très dense autour de la Ka‘bah, avec quelques dalles visibles au premier plan, et des bords encore bien remplis.",
+  "note": "Plan large sur une foule en ihram très dense, qui remplit tout le premier plan jusqu'au bord de l'image, avec un peu plus d'espace près des arcades du fond.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -572,6 +571,10 @@
    },
    {
     "min": 1380,
+    "level": 0.8
+   },
+   {
+    "min": 1390,
     "level": 0.8
    }
   ]
