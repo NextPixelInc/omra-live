@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-21",
-  "min": 920,
+  "min": 930,
   "level": 0.5,
-  "from": "15:20",
-  "to": "15:20",
-  "frames": 4,
+  "from": "15:30",
+  "to": "15:30",
+  "frames": 3,
   "rings": {
-   "inner": 0.4,
-   "middle": 0.4,
-   "outer": 0.8
+   "inner": 0.45,
+   "middle": 0.65,
+   "outer": 0.35
   },
-  "note": "Les images 1 et 2 montrent un couloir et ne comptent pas. Sur les images 3 à 6, le centre du Mataf est dégagé, avec des dalles visibles autour de la Ka‘bah, et ",
+  "note": "Fidèles en rangs de prière d'Asr en arcs serrés autour de la Ka‘bah, avec de larges dalles dégagées près de la Ka‘bah et sur les bords.",
   "prayer": true,
   "source": "direct Quran TV"
  },
@@ -388,6 +388,10 @@
    },
    {
     "min": 920,
+    "level": 0.5
+   },
+   {
+    "min": 930,
     "level": 0.5
    }
   ]
