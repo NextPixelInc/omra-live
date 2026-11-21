@@ -1,15 +1,17 @@
 {
  "now": {
   "date": "2026-11-21",
-  "min": 320,
-  "level": 0.6,
-  "from": "05:20",
-  "to": "05:20",
-  "frames": 3,
+  "min": 330,
+  "level": 0.85,
+  "from": "05:30",
+  "to": "05:30",
+  "frames": 6,
   "rings": {
-   "outer": 0.62
+   "inner": 0.9,
+   "middle": 0.86,
+   "outer": 0.78
   },
-  "note": "Seuls les bords du Mataf sont visibles (images 4 à 6) : foule installée en rangs derrière des sièges blancs, avec un passage dégagé où quelques fidèles marchent",
+  "note": "Mataf plein à craquer de fidèles en ihram, serrés et immobiles pour la prière du Fajr, avec seulement le bord du fond un peu plus lâche.",
   "prayer": true,
   "source": "direct Quran TV"
  },
@@ -147,6 +149,10 @@
    {
     "min": 320,
     "level": 0.6
+   },
+   {
+    "min": 330,
+    "level": 0.85
    }
   ]
  },
