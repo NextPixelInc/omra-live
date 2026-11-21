@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-21",
-  "min": 1140,
-  "level": 0.7,
-  "from": "19:00",
-  "to": "19:00",
-  "frames": 5,
+  "min": 1150,
+  "level": 0.6,
+  "from": "19:10",
+  "to": "19:10",
+  "frames": 3,
   "rings": {
-   "middle": 0.78,
-   "outer": 0.6
+   "middle": 0.5,
+   "outer": 0.7
   },
-  "note": "Vue large de nuit : foule dense et assise au centre, bords et premiers plans plus lâches avec des fidèles qui marchent. La Ka‘bah n'est pas visible, et la image",
-  "prayer": false,
+  "note": "Vues aériennes et rapprochées des abords du Mataf avant l'adhan d'Isha : foule dense assise en rangs sur les bords et les côtés, partie dégagée avec quelques pa",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -476,6 +476,10 @@
    {
     "min": 1140,
     "level": 0.7
+   },
+   {
+    "min": 1150,
+    "level": 0.6
    }
   ]
  },
