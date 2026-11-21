@@ -1,16 +1,17 @@
 {
  "now": {
   "date": "2026-11-22",
-  "min": 0,
-  "level": 0.8,
-  "from": "00:00",
-  "to": "00:00",
-  "frames": 6,
+  "min": 10,
+  "level": 0.76,
+  "from": "00:10",
+  "to": "00:10",
+  "frames": 2,
   "rings": {
-   "middle": 0.8,
-   "outer": 0.8
+   "inner": 0.72,
+   "middle": 0.76,
+   "outer": 0.78
   },
-  "note": "Foule très dense en vêtements blancs occupant tout le bas du cadre jusqu'aux bords, sans dalles visibles ; la Ka‘bah n'apparaît pas.",
+  "note": "Mataf dense vu depuis un étage : foule compacte au pied de la Ka‘bah et au premier plan, sans dalles visibles ; les autres images montrent seulement l'extérieur",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -20,6 +21,10 @@
    {
     "min": 0,
     "level": 0.8
+   },
+   {
+    "min": 10,
+    "level": 0.76
    }
   ]
  },
