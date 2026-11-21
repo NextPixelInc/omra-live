@@ -1,16 +1,18 @@
 {
  "now": {
   "date": "2026-11-21",
-  "min": 730,
-  "level": 0.25,
-  "from": "12:10",
-  "to": "12:10",
+  "min": 740,
+  "level": 0.72,
+  "from": "12:20",
+  "to": "12:20",
   "frames": 6,
   "rings": {
-   "outer": 0.25
+   "inner": 0.85,
+   "middle": 0.78,
+   "outer": 0.55
   },
-  "note": "Pourtour du Mataf peu fréquenté, dalles bien visibles, quelques groupes qui commencent à se rassembler vers les bords à l'heure de l'adhan.",
-  "prayer": false,
+  "note": "Fidèles en rangs de prière concentriques serrés autour de la Ka‘bah, dalles dégagées au premier plan et sur les bords, surtout dans les dernières images.",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -311,6 +313,10 @@
    {
     "min": 730,
     "level": 0.25
+   },
+   {
+    "min": 740,
+    "level": 0.72
    }
   ]
  },
