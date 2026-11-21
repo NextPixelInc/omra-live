@@ -1,18 +1,18 @@
 {
  "now": {
   "date": "2026-11-21",
-  "min": 910,
-  "level": 0.7,
-  "from": "15:10",
-  "to": "15:10",
-  "frames": 6,
+  "min": 920,
+  "level": 0.5,
+  "from": "15:20",
+  "to": "15:20",
+  "frames": 4,
   "rings": {
-   "inner": 0.8,
-   "middle": 0.72,
-   "outer": 0.6
+   "inner": 0.4,
+   "middle": 0.4,
+   "outer": 0.8
   },
-  "note": "Mataf dense autour de la Ka‘bah, premiers plans et bords un peu plus clairsemés avec des dalles visibles.",
-  "prayer": false,
+  "note": "Les images 1 et 2 montrent un couloir et ne comptent pas. Sur les images 3 à 6, le centre du Mataf est dégagé, avec des dalles visibles autour de la Ka‘bah, et ",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -385,6 +385,10 @@
    {
     "min": 910,
     "level": 0.7
+   },
+   {
+    "min": 920,
+    "level": 0.5
    }
   ]
  },
