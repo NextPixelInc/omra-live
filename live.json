@@ -1,17 +1,16 @@
 {
  "now": {
   "date": "2026-11-21",
-  "min": 480,
-  "level": 0.6,
-  "from": "08:00",
-  "to": "08:00",
+  "min": 490,
+  "level": 0.2,
+  "from": "08:10",
+  "to": "08:10",
   "frames": 6,
   "rings": {
-   "inner": 0.85,
-   "middle": 0.6,
-   "outer": 0.35
+   "middle": 0.25,
+   "outer": 0.15
   },
-  "note": "Foule très compacte côté Ka‘bah à gauche, qui s'éclaircit vers le centre, avec des bords et des dalles dégagés à droite et au fond.",
+  "note": "Plan large et aérien de l'esplanade : fidèles clairsemés, dalles bien visibles, un peu plus de monde vers le haut-gauche, bords et premiers plans quasi vides.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -213,6 +212,10 @@
    {
     "min": 480,
     "level": 0.6
+   },
+   {
+    "min": 490,
+    "level": 0.2
    }
   ]
  },
