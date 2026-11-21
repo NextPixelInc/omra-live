@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-21",
-  "min": 1030,
+  "min": 1040,
   "level": 0.88,
-  "from": "17:10",
-  "to": "17:10",
-  "frames": 6,
+  "from": "17:20",
+  "to": "17:20",
+  "frames": 1,
   "rings": {
-   "inner": 0.9,
-   "middle": 0.88,
-   "outer": 0.85
+   "inner": 0.8,
+   "middle": 0.9,
+   "outer": 0.9
   },
-  "note": "Mataf saturé de pèlerins en blanc, aucune dalle visible, y compris au premier plan et sur les bords ; seul un petit dégagement longe la Ka‘bah.",
+  "note": "Seule l'image 1 montre le Mataf : foule très dense tout autour de la Ka‘bah, jusqu'aux bords, avec un peu de dalles visibles au pied de la Ka‘bah ; les images 2",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -432,6 +432,10 @@
    },
    {
     "min": 1030,
+    "level": 0.88
+   },
+   {
+    "min": 1040,
     "level": 0.88
    }
   ]
