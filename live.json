@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-21",
-  "min": 1110,
+  "min": 1120,
   "level": 0.88,
-  "from": "18:30",
-  "to": "18:30",
+  "from": "18:40",
+  "to": "18:40",
   "frames": 6,
   "rings": {
    "inner": 0.92,
-   "middle": 0.9,
+   "middle": 0.88,
    "outer": 0.82
   },
-  "note": "Mataf plein à craquer sur toutes les images, foule compacte jusqu'aux bords, quelques dalles dégagées seulement en bas à gauche, et les fidèles tournent autour ",
+  "note": "Mataf plein à craquer sur toute la largeur, sans dalle visible, avec une foule compacte jusqu'aux bords et aux arcades.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -464,6 +464,10 @@
    },
    {
     "min": 1110,
+    "level": 0.88
+   },
+   {
+    "min": 1120,
     "level": 0.88
    }
   ]
