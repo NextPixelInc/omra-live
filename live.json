@@ -1,18 +1,18 @@
 {
  "now": {
   "date": "2026-11-22",
-  "min": 740,
-  "level": 0.85,
-  "from": "12:20",
-  "to": "12:20",
+  "min": 750,
+  "level": 0.5,
+  "from": "12:30",
+  "to": "12:30",
   "frames": 6,
   "rings": {
-   "inner": 0.75,
-   "middle": 0.9,
-   "outer": 0.85
+   "inner": 0.72,
+   "middle": 0.5,
+   "outer": 0.25
   },
-  "note": "Mataf plein de fidèles en rangs de prière serrés et concentriques autour de la Ka‘bah, jusqu'aux barrières, avec seulement quelques dalles dégagées près de la K",
-  "prayer": true,
+  "note": "Vue aérienne : foule compacte autour de la Ka‘bah, qui s'éclaircit vers les bords, et étages supérieurs presque vides.",
+  "prayer": false,
   "source": "direct Quran TV"
  },
  "day": {
@@ -309,6 +309,10 @@
    {
     "min": 740,
     "level": 0.85
+   },
+   {
+    "min": 750,
+    "level": 0.5
    }
   ]
  },
