@@ -1,18 +1,16 @@
 {
  "now": {
   "date": "2026-11-22",
-  "min": 300,
-  "level": 0.55,
-  "from": "05:00",
-  "to": "05:00",
-  "frames": 1,
+  "min": 320,
+  "level": 0.8,
+  "from": "05:20",
+  "to": "05:20",
+  "frames": 3,
   "rings": {
-   "inner": 0.65,
-   "middle": 0.55,
-   "outer": 0.4
+   "outer": 0.8
   },
-  "note": "Seule l'image 6 montre le Mataf près du Maqam Ibrahim : foule en ihram assez dense au centre, bords plus clairsemés avec des groupes assis. Les images 1 à 5 mon",
-  "prayer": false,
+  "note": "Seuls les bords du Mataf sont visibles (images 4 à 6) : foule dense assise en rangs derrière les barrières, la Ka‘bah n'étant pas à l'image. Les images 1 à 3 mo",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -141,6 +139,10 @@
    {
     "min": 300,
     "level": 0.55
+   },
+   {
+    "min": 320,
+    "level": 0.8
    }
   ]
  },
