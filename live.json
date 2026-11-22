@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-23",
-  "min": 121,
-  "level": 0.68,
-  "from": "02:00",
-  "to": "02:01",
-  "frames": 6,
+  "min": 130,
+  "level": 0.76,
+  "from": "02:10",
+  "to": "02:10",
+  "frames": 5,
   "rings": {
-   "inner": 0.9,
-   "middle": 0.7,
-   "outer": 0.4
+   "inner": 0.85,
+   "middle": 0.78,
+   "outer": 0.65
   },
-  "note": "Foule très dense autour de la Ka‘bah et à droite, avec un côté gauche et des bords nettement plus clairsemés où les dalles se voient.",
+  "note": "Mataf dense et compact à gauche et autour de la Ka‘bah, plus lâche à droite où l'on voit des dalles, foule en mouvement.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -69,6 +69,10 @@
    {
     "min": 121,
     "level": 0.68
+   },
+   {
+    "min": 130,
+    "level": 0.76
    }
   ]
  },
