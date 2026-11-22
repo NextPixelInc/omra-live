@@ -1,18 +1,17 @@
 {
  "now": {
   "date": "2026-11-22",
-  "min": 1150,
-  "level": 0.55,
-  "from": "19:10",
-  "to": "19:10",
-  "frames": 4,
+  "min": 1164,
+  "level": 0.8,
+  "from": "19:24",
+  "to": "19:24",
+  "frames": 2,
   "rings": {
-   "inner": 0.35,
-   "middle": 0.55,
-   "outer": 0.8
+   "middle": 0.7,
+   "outer": 0.9
   },
-  "note": "Pendant l'appel à la prière d'Isha, la zone près de la Ka‘bah est assez dégagée avec des dalles visibles, alors que les bords et les étages sont bondés de fidèl",
-  "prayer": false,
+  "note": "Foule en rangs de prière : plein et saturé sur les côtés et les étages, mais une bande de dalles dégagée apparaît dans la vue de haut.",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -469,6 +468,10 @@
    {
     "min": 1150,
     "level": 0.55
+   },
+   {
+    "min": 1164,
+    "level": 0.8
    }
   ]
  },
