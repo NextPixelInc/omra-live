@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-22",
-  "min": 1000,
-  "level": 0.88,
-  "from": "16:40",
-  "to": "16:40",
+  "min": 1010,
+  "level": 0.78,
+  "from": "16:50",
+  "to": "16:50",
   "frames": 6,
   "rings": {
-   "inner": 0.93,
-   "middle": 0.9,
-   "outer": 0.8
+   "inner": 0.85,
+   "middle": 0.82,
+   "outer": 0.68
   },
-  "note": "Mataf saturé de pèlerins en blanc, très dense jusqu'aux abords des galeries ; seule la zone au premier plan à gauche est plus claire, avec des fidèles assis.",
+  "note": "Mataf très dense autour de la Ka‘bah et à droite, avec un côté gauche et des bords plus clairsemés où les dalles sont visibles.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -413,6 +413,10 @@
    {
     "min": 1000,
     "level": 0.88
+   },
+   {
+    "min": 1010,
+    "level": 0.78
    }
   ]
  },
