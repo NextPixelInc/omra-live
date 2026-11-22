@@ -1,18 +1,14 @@
 {
  "now": {
   "date": "2026-11-22",
-  "min": 1060,
-  "level": 0.55,
-  "from": "17:40",
-  "to": "17:40",
+  "min": 1070,
+  "level": 0.85,
+  "from": "17:50",
+  "to": "17:50",
   "frames": 5,
-  "rings": {
-   "inner": 0.3,
-   "middle": 0.5,
-   "outer": 0.8
-  },
-  "note": "Vue aérienne de l'esplanade : dalles bien visibles et fidèles clairsemés près du centre, mais foule dense et compacte sur les bords et les abords, avec des gens",
-  "prayer": false,
+  "rings": {},
+  "note": "Pèlerins en ihram serrés épaule contre épaule, sans dalle visible, alignés en rangs pour la prière du Maghrib (plans rapprochés, anneaux non distinguables).",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -437,6 +433,10 @@
    {
     "min": 1060,
     "level": 0.55
+   },
+   {
+    "min": 1070,
+    "level": 0.85
    }
   ]
  },
