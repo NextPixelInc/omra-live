@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-22",
-  "min": 450,
-  "level": 0.5,
-  "from": "07:30",
-  "to": "07:30",
+  "min": 460,
+  "level": 0.68,
+  "from": "07:40",
+  "to": "07:40",
   "frames": 6,
   "rings": {
-   "inner": 0.65,
-   "middle": 0.5,
-   "outer": 0.35
+   "inner": 0.85,
+   "middle": 0.7,
+   "outer": 0.5
   },
-  "note": "Foule autour de la Ka‘bah, plus serrée près d'elle, avec des dalles bien visibles à mi-distance et des bords plus clairsemés.",
+  "note": "Foule dense autour de la Ka‘bah, qui se clairsème vers les premiers plans et les bords, où les dalles restent visibles.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -197,6 +197,10 @@
    {
     "min": 450,
     "level": 0.5
+   },
+   {
+    "min": 460,
+    "level": 0.68
    }
   ]
  },
