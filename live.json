@@ -1,16 +1,17 @@
 {
  "now": {
   "date": "2026-11-22",
-  "min": 1130,
-  "level": 0.75,
-  "from": "18:50",
-  "to": "18:50",
-  "frames": 6,
+  "min": 1150,
+  "level": 0.55,
+  "from": "19:10",
+  "to": "19:10",
+  "frames": 4,
   "rings": {
-   "middle": 0.75,
-   "outer": 0.7
+   "inner": 0.35,
+   "middle": 0.55,
+   "outer": 0.8
   },
-  "note": "Vue en plongée sur le pourtour du Mataf : foule dense à droite et à gauche, avec quelques dalles visibles au centre et au premier plan, et des fidèles qui circu",
+  "note": "Pendant l'appel à la prière d'Isha, la zone près de la Ka‘bah est assez dégagée avec des dalles visibles, alors que les bords et les étages sont bondés de fidèl",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -464,6 +465,10 @@
    {
     "min": 1130,
     "level": 0.75
+   },
+   {
+    "min": 1150,
+    "level": 0.55
    }
   ]
  },
