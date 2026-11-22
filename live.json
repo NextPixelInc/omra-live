@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-22",
-  "min": 680,
-  "level": 0.35,
-  "from": "11:20",
-  "to": "11:20",
-  "frames": 6,
+  "min": 690,
+  "level": 0.55,
+  "from": "11:30",
+  "to": "11:30",
+  "frames": 4,
   "rings": {
-   "inner": 0.55,
-   "middle": 0.35,
-   "outer": 0.18
+   "inner": 0.8,
+   "middle": 0.55,
+   "outer": 0.3
   },
-  "note": "Mataf vu de loin : foule plus dense en bas de l'image, mais esplanade largement dégagée avec dalles bien visibles et bords clairsemés.",
+  "note": "Le Mataf n'apparaît que sur le bord droit du cadrage : foule dense autour de la Ka‘bah (visible dans les dernières images), tandis que le pourtour et les dalles",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -289,6 +289,10 @@
    {
     "min": 680,
     "level": 0.35
+   },
+   {
+    "min": 690,
+    "level": 0.55
    }
   ]
  },
