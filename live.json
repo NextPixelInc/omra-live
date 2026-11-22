@@ -1,15 +1,17 @@
 {
  "now": {
   "date": "2026-11-22",
-  "min": 870,
-  "level": 0.5,
-  "from": "14:30",
-  "to": "14:30",
-  "frames": 4,
+  "min": 881,
+  "level": 0.35,
+  "from": "14:40",
+  "to": "14:41",
+  "frames": 6,
   "rings": {
-   "outer": 0.5
+   "inner": 0.45,
+   "middle": 0.35,
+   "outer": 0.22
   },
-  "note": "Seules les images 1 à 4 montrent le bord du Mataf, avec un flux de pèlerins dense au premier plan mais des zones dégagées, et la Ka‘bah n'est pas visible. Les i",
+  "note": "Mataf clairsemé à modéré : dalles bien visibles, un groupe plus dense près de la Ka‘bah et des bords dégagés.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -359,6 +361,10 @@
    {
     "min": 870,
     "level": 0.5
+   },
+   {
+    "min": 881,
+    "level": 0.35
    }
   ]
  },
