@@ -1,14 +1,18 @@
 {
  "now": {
   "date": "2026-11-22",
-  "min": 1070,
-  "level": 0.85,
-  "from": "17:50",
-  "to": "17:50",
-  "frames": 5,
-  "rings": {},
-  "note": "Pèlerins en ihram serrés épaule contre épaule, sans dalle visible, alignés en rangs pour la prière du Maghrib (plans rapprochés, anneaux non distinguables).",
-  "prayer": true,
+  "min": 1084,
+  "level": 0.82,
+  "from": "18:04",
+  "to": "18:04",
+  "frames": 3,
+  "rings": {
+   "inner": 0.85,
+   "middle": 0.82,
+   "outer": 0.76
+  },
+  "note": "Mataf très dense, foule compacte jusqu'aux abords des bâtiments, avec seulement quelques dalles visibles sur le bord gauche.",
+  "prayer": false,
   "source": "direct Quran TV"
  },
  "day": {
@@ -437,6 +441,10 @@
    {
     "min": 1070,
     "level": 0.85
+   },
+   {
+    "min": 1084,
+    "level": 0.82
    }
   ]
  },
