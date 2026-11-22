@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-22",
-  "min": 720,
-  "level": 0.66,
-  "from": "12:00",
-  "to": "12:00",
-  "frames": 6,
+  "min": 730,
+  "level": 0.45,
+  "from": "12:10",
+  "to": "12:10",
+  "frames": 3,
   "rings": {
-   "inner": 0.85,
-   "middle": 0.68,
-   "outer": 0.4
+   "inner": 0.65,
+   "middle": 0.4,
+   "outer": 0.3
   },
-  "note": "Mataf très dense près de la Ka‘bah et au premier plan, avec des bords et un côté droit nettement plus clairsemés où les dalles se voient.",
+  "note": "Vue large : groupes denses assis autour du Maqam Ibrahim, mais passages et dalles bien visibles ailleurs, avec des fidèles en ihram qui circulent, juste avant l",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -301,6 +301,10 @@
    {
     "min": 720,
     "level": 0.66
+   },
+   {
+    "min": 730,
+    "level": 0.45
    }
   ]
  },
