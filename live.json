@@ -1,16 +1,18 @@
 {
  "now": {
   "date": "2026-11-22",
-  "min": 340,
-  "level": 0.92,
-  "from": "05:40",
-  "to": "05:40",
-  "frames": 3,
+  "min": 350,
+  "level": 0.78,
+  "from": "05:50",
+  "to": "05:50",
+  "frames": 6,
   "rings": {
-   "outer": 0.92
+   "inner": 0.85,
+   "middle": 0.78,
+   "outer": 0.7
   },
-  "note": "Foule compacte en ihram, sans dalles visibles au premier plan, alignée en rangs de prière du Fajr jusqu'aux bords, avec les étages également occupés.",
-  "prayer": true,
+  "note": "Mataf dense avec une foule en mouvement autour de la Ka‘bah, bords un peu plus clairsemés mais bien occupés.",
+  "prayer": false,
   "source": "direct Quran TV"
  },
  "day": {
@@ -151,6 +153,10 @@
    {
     "min": 340,
     "level": 0.92
+   },
+   {
+    "min": 350,
+    "level": 0.78
    }
   ]
  },
