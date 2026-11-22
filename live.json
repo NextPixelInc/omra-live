@@ -1,16 +1,17 @@
 {
  "now": {
   "date": "2026-11-22",
-  "min": 1164,
-  "level": 0.8,
-  "from": "19:24",
-  "to": "19:24",
-  "frames": 2,
+  "min": 1170,
+  "level": 0.85,
+  "from": "19:30",
+  "to": "19:30",
+  "frames": 6,
   "rings": {
-   "middle": 0.7,
-   "outer": 0.9
+   "inner": 0.9,
+   "middle": 0.88,
+   "outer": 0.8
   },
-  "note": "Foule en rangs de prière : plein et saturé sur les côtés et les étages, mais une bande de dalles dégagée apparaît dans la vue de haut.",
+  "note": "Mataf plein en rangs de prière concentriques serrés autour de la Ka‘bah, avec les galeries et les bords également très remplis.",
   "prayer": true,
   "source": "direct Quran TV"
  },
@@ -472,6 +473,10 @@
    {
     "min": 1164,
     "level": 0.8
+   },
+   {
+    "min": 1170,
+    "level": 0.85
    }
   ]
  },
