@@ -1,17 +1,16 @@
 {
  "now": {
   "date": "2026-11-22",
-  "min": 1310,
-  "level": 0.72,
-  "from": "21:50",
-  "to": "21:50",
+  "min": 1320,
+  "level": 0.68,
+  "from": "22:00",
+  "to": "22:00",
   "frames": 6,
   "rings": {
-   "inner": 0.85,
    "middle": 0.72,
    "outer": 0.6
   },
-  "note": "Mataf dense autour de la Ka‘bah et au loin, avec des premiers plans plus clairsemés où les dalles réapparaissent, foule en mouvement.",
+  "note": "Plan large de nuit : on n'aperçoit que le coin du Mataf en bas à droite, avec une foule dense mais des dalles claires visibles par endroits, tandis que les gale",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -533,6 +532,10 @@
    {
     "min": 1310,
     "level": 0.72
+   },
+   {
+    "min": 1320,
+    "level": 0.68
    }
   ]
  },
