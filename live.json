@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-22",
-  "min": 541,
-  "level": 0.55,
-  "from": "09:00",
-  "to": "09:01",
-  "frames": 6,
+  "min": 550,
+  "level": 0.82,
+  "from": "09:10",
+  "to": "09:10",
+  "frames": 4,
   "rings": {
-   "inner": 0.75,
-   "middle": 0.55,
-   "outer": 0.3
+   "inner": 0.8,
+   "middle": 0.88,
+   "outer": 0.78
   },
-  "note": "Foule dense près de la Ka‘bah, qui se clairseme vers le bord gauche et le haut où les dalles sont bien visibles.",
+  "note": "Mataf plein jusqu'aux bords au premier plan et à gauche, un peu plus lâche en haut à droite ; les images 5 et 6 sont des plans rapprochés écartés.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -233,6 +233,10 @@
    {
     "min": 541,
     "level": 0.55
+   },
+   {
+    "min": 550,
+    "level": 0.82
    }
   ]
  },
