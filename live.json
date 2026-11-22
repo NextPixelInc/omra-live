@@ -1,18 +1,18 @@
 {
  "now": {
   "date": "2026-11-22",
-  "min": 730,
-  "level": 0.45,
-  "from": "12:10",
-  "to": "12:10",
-  "frames": 3,
+  "min": 740,
+  "level": 0.85,
+  "from": "12:20",
+  "to": "12:20",
+  "frames": 6,
   "rings": {
-   "inner": 0.65,
-   "middle": 0.4,
-   "outer": 0.3
+   "inner": 0.75,
+   "middle": 0.9,
+   "outer": 0.85
   },
-  "note": "Vue large : groupes denses assis autour du Maqam Ibrahim, mais passages et dalles bien visibles ailleurs, avec des fidèles en ihram qui circulent, juste avant l",
-  "prayer": false,
+  "note": "Mataf plein de fidèles en rangs de prière serrés et concentriques autour de la Ka‘bah, jusqu'aux barrières, avec seulement quelques dalles dégagées près de la K",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -305,6 +305,10 @@
    {
     "min": 730,
     "level": 0.45
+   },
+   {
+    "min": 740,
+    "level": 0.85
    }
   ]
  },
