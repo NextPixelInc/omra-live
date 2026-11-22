@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-22",
-  "min": 920,
-  "level": 0.5,
-  "from": "15:20",
-  "to": "15:20",
-  "frames": 3,
+  "min": 930,
+  "level": 0.62,
+  "from": "15:30",
+  "to": "15:30",
+  "frames": 4,
   "rings": {
-   "inner": 0.6,
-   "middle": 0.5,
-   "outer": 0.2
+   "inner": 0.8,
+   "middle": 0.68,
+   "outer": 0.35
   },
-  "note": "Vue aérienne : foule installée autour de la Ka‘bah, avec des zones de dalles visibles et des bords du Mataf dégagés.",
+  "note": "Fidèles en rangs de prière serrés autour de la Ka‘bah, dalles dégagées au premier plan et sur les bords.",
   "prayer": true,
   "source": "direct Quran TV"
  },
@@ -381,6 +381,10 @@
    {
     "min": 920,
     "level": 0.5
+   },
+   {
+    "min": 930,
+    "level": 0.62
    }
   ]
  },
