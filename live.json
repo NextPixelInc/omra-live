@@ -1,16 +1,15 @@
 {
  "now": {
   "date": "2026-11-22",
-  "min": 330,
-  "level": 0.58,
-  "from": "05:30",
-  "to": "05:30",
-  "frames": 6,
+  "min": 340,
+  "level": 0.92,
+  "from": "05:40",
+  "to": "05:40",
+  "frames": 3,
   "rings": {
-   "middle": 0.62,
-   "outer": 0.5
+   "outer": 0.92
   },
-  "note": "Plan fixe depuis un bord du Mataf : fidèles assis ou debout par groupes devant la balustrade, dalles dégagées au premier plan à droite, étages du fond très dens",
+  "note": "Foule compacte en ihram, sans dalles visibles au premier plan, alignée en rangs de prière du Fajr jusqu'aux bords, avec les étages également occupés.",
   "prayer": true,
   "source": "direct Quran TV"
  },
@@ -148,6 +147,10 @@
    {
     "min": 330,
     "level": 0.58
+   },
+   {
+    "min": 340,
+    "level": 0.92
    }
   ]
  },
