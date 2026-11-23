@@ -1,16 +1,16 @@
 {
  "now": {
   "date": "2026-11-23",
-  "min": 250,
-  "level": 0.87,
-  "from": "04:10",
-  "to": "04:10",
+  "min": 260,
+  "level": 0.84,
+  "from": "04:20",
+  "to": "04:20",
   "frames": 6,
   "rings": {
    "middle": 0.88,
-   "outer": 0.85
+   "outer": 0.78
   },
-  "note": "Foule très compacte jusqu'aux bords, aucune dalle visible, avec un couloir étroit de fidèles en blanc au centre ; la Ka‘bah n'est pas dans le champ.",
+  "note": "Plan large très dense, foule compacte sans dalles visibles au premier plan, un peu plus clairsemée vers la droite et près de l'esplanade dégagée en bas à droite",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -120,6 +120,10 @@
    {
     "min": 250,
     "level": 0.87
+   },
+   {
+    "min": 260,
+    "level": 0.84
    }
   ]
  },
