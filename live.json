@@ -1,17 +1,15 @@
 {
  "now": {
   "date": "2026-11-23",
-  "min": 1030,
-  "level": 0.85,
-  "from": "17:10",
-  "to": "17:10",
+  "min": 1040,
+  "level": 0.35,
+  "from": "17:20",
+  "to": "17:20",
   "frames": 6,
   "rings": {
-   "inner": 0.9,
-   "middle": 0.87,
-   "outer": 0.8
+   "outer": 0.35
   },
-  "note": "Mataf très dense et plein jusqu'aux bords sur les six images, avec seulement un couloir dégagé en bas à gauche et une foule qui semble continuer à circuler auto",
+  "note": "Vue sur le bord du Mataf depuis l'étage : dalles bien visibles au premier plan, quelques fidèles qui marchent, et des rangs de personnes assises au fond.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -421,6 +419,10 @@
    {
     "min": 1030,
     "level": 0.85
+   },
+   {
+    "min": 1040,
+    "level": 0.35
    }
   ]
  },
