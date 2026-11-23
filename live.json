@@ -1,16 +1,17 @@
 {
  "now": {
   "date": "2026-11-23",
-  "min": 1085,
-  "level": 0.72,
-  "from": "18:04",
-  "to": "18:05",
+  "min": 1090,
+  "level": 0.8,
+  "from": "18:10",
+  "to": "18:10",
   "frames": 6,
   "rings": {
-   "middle": 0.75,
-   "outer": 0.6
+   "inner": 0.88,
+   "middle": 0.82,
+   "outer": 0.7
   },
-  "note": "Mataf dense au premier plan et à mi-distance, avec des bords plus lâches où les dalles sont visibles près des bâtiments ; la Ka‘bah n'est pas dans le champ.",
+  "note": "Mataf très dense autour de la Ka‘bah et au premier plan, avec quelques dalles visibles et des zones plus lâches sur le bord droit.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -440,6 +441,10 @@
    {
     "min": 1085,
     "level": 0.72
+   },
+   {
+    "min": 1090,
+    "level": 0.8
    }
   ]
  },
