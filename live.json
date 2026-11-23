@@ -1,17 +1,15 @@
 {
  "now": {
   "date": "2026-11-23",
-  "min": 720,
-  "level": 0.72,
-  "from": "12:00",
-  "to": "12:00",
-  "frames": 6,
+  "min": 730,
+  "level": 0.78,
+  "from": "12:10",
+  "to": "12:10",
+  "frames": 4,
   "rings": {
-   "inner": 0.8,
-   "middle": 0.72,
-   "outer": 0.55
+   "outer": 0.78
   },
-  "note": "Mataf dense autour de la Ka‘bah et au centre, avec des bords à droite et au premier plan plus lâches où les dalles apparaissent.",
+  "note": "Foule dense et compacte qui avance sur les abords du Mataf, bords un peu plus fluides, Ka‘bah non visible.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -305,6 +303,10 @@
    {
     "min": 720,
     "level": 0.72
+   },
+   {
+    "min": 730,
+    "level": 0.78
    }
   ]
  },
