@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-23",
-  "min": 240,
-  "level": 0.75,
-  "from": "04:00",
-  "to": "04:00",
+  "min": 250,
+  "level": 0.87,
+  "from": "04:10",
+  "to": "04:10",
   "frames": 6,
   "rings": {
-   "middle": 0.82,
-   "outer": 0.62
+   "middle": 0.88,
+   "outer": 0.85
   },
-  "note": "Foule dense et immobile à droite et en bas à gauche, en rangs serrés, avec un couloir dégagé au milieu et des bords et galeries plus clairsemés.",
-  "prayer": true,
+  "note": "Foule très compacte jusqu'aux bords, aucune dalle visible, avec un couloir étroit de fidèles en blanc au centre ; la Ka‘bah n'est pas dans le champ.",
+  "prayer": false,
   "source": "direct Quran TV"
  },
  "day": {
@@ -116,6 +116,10 @@
    {
     "min": 240,
     "level": 0.75
+   },
+   {
+    "min": 250,
+    "level": 0.87
    }
   ]
  },
