@@ -1,16 +1,17 @@
 {
  "now": {
   "date": "2026-11-23",
-  "min": 430,
-  "level": 0.84,
-  "from": "07:10",
-  "to": "07:10",
-  "frames": 1,
+  "min": 440,
+  "level": 0.8,
+  "from": "07:20",
+  "to": "07:20",
+  "frames": 6,
   "rings": {
-   "middle": 0.8,
-   "outer": 0.88
+   "inner": 0.85,
+   "middle": 0.82,
+   "outer": 0.74
   },
-  "note": "Seule la dernière image montre le Mataf : foule très dense jusqu'aux bords, avec un petit espace dégagé en bas au centre ; les images 1 à 5 ne montrent qu'un pa",
+  "note": "Mataf très dense autour de la Ka‘bah et à mi-distance, avec des bords un peu plus lâches où quelques dalles apparaissent en bas à droite ; la foule circule.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -188,6 +189,10 @@
    {
     "min": 430,
     "level": 0.84
+   },
+   {
+    "min": 440,
+    "level": 0.8
    }
   ]
  },
