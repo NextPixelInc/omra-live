@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-23",
-  "min": 920,
-  "level": 0.8,
-  "from": "15:20",
-  "to": "15:20",
-  "frames": 6,
+  "min": 930,
+  "level": 0.6,
+  "from": "15:30",
+  "to": "15:30",
+  "frames": 5,
   "rings": {
-   "inner": 0.78,
-   "middle": 0.75,
-   "outer": 0.85
+   "inner": 0.7,
+   "middle": 0.68,
+   "outer": 0.35
   },
-  "note": "Mataf plein, avec des rangs de fidèles assis ou debout sur les bords et à droite de la Ka‘bah, et quelques passages dégagés au centre où l'on marche encore.",
+  "note": "Fidèles en rangs de prière serrés en arc autour de la Ka‘bah, avec le premier plan et les dalles du bord proches de la caméra dégagés.",
   "prayer": true,
   "source": "direct Quran TV"
  },
@@ -381,6 +381,10 @@
    {
     "min": 920,
     "level": 0.8
+   },
+   {
+    "min": 930,
+    "level": 0.6
    }
   ]
  },
