@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-23",
-  "min": 450,
+  "min": 465,
   "level": 0.55,
-  "from": "07:30",
-  "to": "07:30",
-  "frames": 2,
+  "from": "07:44",
+  "to": "07:45",
+  "frames": 6,
   "rings": {
-   "inner": 0.7,
-   "middle": 0.55,
-   "outer": 0.35
+   "inner": 0.75,
+   "middle": 0.6,
+   "outer": 0.3
   },
-  "note": "Foule compacte autour de la Ka‘bah, qui s'éclaircit vers les bords du Mataf où les dalles blanches restent bien visibles.",
+  "note": "Vue aérienne : foule compacte autour de la Ka‘bah, mais le pourtour du Mataf reste dégagé, avec des dalles bien visibles.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -196,6 +196,10 @@
    },
    {
     "min": 450,
+    "level": 0.55
+   },
+   {
+    "min": 465,
     "level": 0.55
    }
   ]
