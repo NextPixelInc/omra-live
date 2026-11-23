@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-23",
-  "min": 314,
-  "level": 0.88,
-  "from": "05:14",
-  "to": "05:14",
-  "frames": 1,
+  "min": 320,
+  "level": 0.2,
+  "from": "05:20",
+  "to": "05:20",
+  "frames": 2,
   "rings": {
-   "inner": 0.9,
-   "middle": 0.88,
-   "outer": 0.85
+   "inner": 0.25,
+   "middle": 0.2,
+   "outer": 0.12
   },
-  "note": "Une seule image montre le Mataf : foule très dense en anneaux serrés autour de la Ka‘bah, sans dalle visible, jusqu'aux bords du cadre ; les cinq autres images ",
+  "note": "Mataf clairsemé, dalles bien visibles, quelques pèlerins qui marchent et des barrières ; les rangs de prière des images 1 à 4 sont sur l'esplanade extérieure, p",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -145,6 +145,10 @@
    {
     "min": 314,
     "level": 0.88
+   },
+   {
+    "min": 320,
+    "level": 0.2
    }
   ]
  },
