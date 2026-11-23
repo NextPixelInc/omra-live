@@ -1,18 +1,18 @@
 {
  "now": {
   "date": "2026-11-23",
-  "min": 740,
-  "level": 0.82,
-  "from": "12:20",
-  "to": "12:20",
+  "min": 754,
+  "level": 0.7,
+  "from": "12:34",
+  "to": "12:34",
   "frames": 6,
   "rings": {
-   "inner": 0.9,
-   "middle": 0.85,
-   "outer": 0.7
+   "inner": 0.8,
+   "middle": 0.7,
+   "outer": 0.55
   },
-  "note": "Fidèles alignés en rangs de prière concentriques autour de la Ka‘bah (prière du Dhuhr), esplanade pleine, quelques dalles dégagées au fond et sur les bords.",
-  "prayer": true,
+  "note": "Vue aérienne : Mataf dense autour de la Ka‘bah, bords plus lâches, foule en circumambulation, la partie ombragée est moins lisible.",
+  "prayer": false,
   "source": "direct Quran TV"
  },
  "day": {
@@ -313,6 +313,10 @@
    {
     "min": 740,
     "level": 0.82
+   },
+   {
+    "min": 754,
+    "level": 0.7
    }
   ]
  },
