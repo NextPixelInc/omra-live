@@ -1,16 +1,17 @@
 {
  "now": {
   "date": "2026-11-23",
-  "min": 1300,
-  "level": 0.85,
-  "from": "21:40",
-  "to": "21:40",
+  "min": 1310,
+  "level": 0.7,
+  "from": "21:50",
+  "to": "21:50",
   "frames": 6,
   "rings": {
-   "middle": 0.85,
-   "outer": 0.82
+   "inner": 0.88,
+   "middle": 0.72,
+   "outer": 0.5
   },
-  "note": "Foule très dense sur tout le cadre, sans dalles visibles, jusqu'aux bords et aux galeries du fond ; la Ka‘bah n'apparaît pas.",
+  "note": "Mataf très dense autour de la Ka‘bah, foule en mouvement circulaire, bords et zones du fond plus clairsemés avec des dalles visibles.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -528,6 +529,10 @@
    {
     "min": 1300,
     "level": 0.85
+   },
+   {
+    "min": 1310,
+    "level": 0.7
    }
   ]
  },
