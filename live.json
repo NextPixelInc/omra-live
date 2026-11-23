@@ -1,18 +1,17 @@
 {
  "now": {
   "date": "2026-11-23",
-  "min": 1070,
-  "level": 0.86,
-  "from": "17:50",
-  "to": "17:50",
-  "frames": 3,
+  "min": 1085,
+  "level": 0.72,
+  "from": "18:04",
+  "to": "18:05",
+  "frames": 6,
   "rings": {
-   "inner": 0.92,
-   "middle": 0.87,
-   "outer": 0.8
+   "middle": 0.75,
+   "outer": 0.6
   },
-  "note": "Mataf plein à craquer, fidèles en rangs de prière serrés en arcs concentriques autour de la Ka‘bah, jusqu'aux barrières, sans dalles visibles.",
-  "prayer": true,
+  "note": "Mataf dense au premier plan et à mi-distance, avec des bords plus lâches où les dalles sont visibles près des bâtiments ; la Ka‘bah n'est pas dans le champ.",
+  "prayer": false,
   "source": "direct Quran TV"
  },
  "day": {
@@ -437,6 +436,10 @@
    {
     "min": 1070,
     "level": 0.86
+   },
+   {
+    "min": 1085,
+    "level": 0.72
    }
   ]
  },
