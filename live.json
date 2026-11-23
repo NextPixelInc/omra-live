@@ -1,16 +1,16 @@
 {
  "now": {
   "date": "2026-11-23",
-  "min": 230,
-  "level": 0.85,
-  "from": "03:50",
-  "to": "03:50",
+  "min": 240,
+  "level": 0.75,
+  "from": "04:00",
+  "to": "04:00",
   "frames": 6,
   "rings": {
-   "middle": 0.86,
-   "outer": 0.83
+   "middle": 0.82,
+   "outer": 0.62
   },
-  "note": "Foule très dense sur tout le Mataf, sans dalle visible, avec des rangs serrés de fidèles en blanc et du monde aux balcons ; seul un petit passage dégagé apparaî",
+  "note": "Foule dense et immobile à droite et en bas à gauche, en rangs serrés, avec un couloir dégagé au milieu et des bords et galeries plus clairsemés.",
   "prayer": true,
   "source": "direct Quran TV"
  },
@@ -112,6 +112,10 @@
    {
     "min": 230,
     "level": 0.85
+   },
+   {
+    "min": 240,
+    "level": 0.75
    }
   ]
  },
