@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-23",
-  "min": 260,
-  "level": 0.84,
-  "from": "04:20",
-  "to": "04:20",
+  "min": 270,
+  "level": 0.82,
+  "from": "04:30",
+  "to": "04:30",
   "frames": 6,
   "rings": {
    "middle": 0.88,
-   "outer": 0.78
+   "outer": 0.75
   },
-  "note": "Plan large très dense, foule compacte sans dalles visibles au premier plan, un peu plus clairsemée vers la droite et près de l'esplanade dégagée en bas à droite",
-  "prayer": false,
+  "note": "Foule très compacte au premier plan, plus lâche vers les bords et les galeries du fond, avec une allée dégagée près de l'escalier ; la foule semble stationnaire",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -124,6 +124,10 @@
    {
     "min": 260,
     "level": 0.84
+   },
+   {
+    "min": 270,
+    "level": 0.82
    }
   ]
  },
