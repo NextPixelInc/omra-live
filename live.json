@@ -1,16 +1,18 @@
 {
  "now": {
   "date": "2026-11-23",
-  "min": 330,
-  "level": 0.75,
-  "from": "05:30",
-  "to": "05:30",
-  "frames": 6,
+  "min": 340,
+  "level": 0.9,
+  "from": "05:40",
+  "to": "05:40",
+  "frames": 4,
   "rings": {
-   "outer": 0.75
+   "inner": 0.9,
+   "middle": 0.92,
+   "outer": 0.9
   },
-  "note": "Plan fixe sur la façade avec seulement la bande de foule en bas de l'image : fidèles en blanc très serrés au premier plan, Ka‘bah et centre du Mataf hors champ.",
-  "prayer": false,
+  "note": "Mataf plein à craquer, fidèles en rangs concentriques de prière du Fajr autour de la Ka‘bah, jusqu'aux bords et aux étages.",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -151,6 +153,10 @@
    {
     "min": 330,
     "level": 0.75
+   },
+   {
+    "min": 340,
+    "level": 0.9
    }
   ]
  },
