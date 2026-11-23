@@ -1,18 +1,17 @@
 {
  "now": {
   "date": "2026-11-23",
-  "min": 1142,
-  "level": 0.8,
-  "from": "19:01",
-  "to": "19:02",
-  "frames": 6,
+  "min": 1150,
+  "level": 0.75,
+  "from": "19:10",
+  "to": "19:10",
+  "frames": 5,
   "rings": {
-   "inner": 0.88,
-   "middle": 0.82,
-   "outer": 0.7
+   "middle": 0.8,
+   "outer": 0.65
   },
-  "note": "Mataf plein, très dense autour de la Ka‘bah, les bords et la zone à droite un peu plus aérés avec quelques dalles visibles.",
-  "prayer": false,
+  "note": "Foule dense et assise en rangs avant la prière d'Isha, avec quelques allées dégagées sur les bords. La Ka‘bah n'est visible dans aucune image, donc l'estimation",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -465,6 +464,10 @@
    {
     "min": 1142,
     "level": 0.8
+   },
+   {
+    "min": 1150,
+    "level": 0.75
    }
   ]
  },
