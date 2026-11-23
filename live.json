@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-23",
-  "min": 180,
-  "level": 0.62,
-  "from": "03:00",
-  "to": "03:00",
+  "min": 190,
+  "level": 0.88,
+  "from": "03:10",
+  "to": "03:10",
   "frames": 6,
   "rings": {
-   "inner": 0.8,
-   "middle": 0.65,
-   "outer": 0.4
+   "inner": 0.92,
+   "middle": 0.88,
+   "outer": 0.82
   },
-  "note": "Foule dense autour de la Ka‘bah, qui tourne, avec des bords et des dalles dégagés, surtout à gauche et en bas.",
+  "note": "Mataf saturé de pèlerins en blanc sur toute l'esplanade, premiers plans et bords pleins, sans dalles visibles.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -93,6 +93,10 @@
    {
     "min": 180,
     "level": 0.62
+   },
+   {
+    "min": 190,
+    "level": 0.88
    }
   ]
  },
