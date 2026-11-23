@@ -1,16 +1,17 @@
 {
  "now": {
   "date": "2026-11-23",
-  "min": 370,
-  "level": 0.68,
-  "from": "06:10",
-  "to": "06:10",
-  "frames": 4,
+  "min": 380,
+  "level": 0.88,
+  "from": "06:20",
+  "to": "06:20",
+  "frames": 6,
   "rings": {
-   "middle": 0.8,
-   "outer": 0.5
+   "inner": 0.92,
+   "middle": 0.88,
+   "outer": 0.82
   },
-  "note": "Foule très dense à droite vers le Mataf, tandis que le passage central et l'esplanade à gauche restent fluides et dégagés ; la Ka‘bah elle-même n'est pas visibl",
+  "note": "Mataf très dense, plein de pèlerins jusqu'aux bords et aux galeries, la foule circule autour de la Ka‘bah.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -164,6 +165,10 @@
    {
     "min": 370,
     "level": 0.68
+   },
+   {
+    "min": 380,
+    "level": 0.88
    }
   ]
  },
