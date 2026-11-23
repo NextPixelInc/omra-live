@@ -1,16 +1,18 @@
 {
  "now": {
   "date": "2026-11-23",
-  "min": 730,
-  "level": 0.78,
-  "from": "12:10",
-  "to": "12:10",
-  "frames": 4,
+  "min": 740,
+  "level": 0.82,
+  "from": "12:20",
+  "to": "12:20",
+  "frames": 6,
   "rings": {
-   "outer": 0.78
+   "inner": 0.9,
+   "middle": 0.85,
+   "outer": 0.7
   },
-  "note": "Foule dense et compacte qui avance sur les abords du Mataf, bords un peu plus fluides, Ka‘bah non visible.",
-  "prayer": false,
+  "note": "Fidèles alignés en rangs de prière concentriques autour de la Ka‘bah (prière du Dhuhr), esplanade pleine, quelques dalles dégagées au fond et sur les bords.",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -307,6 +309,10 @@
    {
     "min": 730,
     "level": 0.78
+   },
+   {
+    "min": 740,
+    "level": 0.82
    }
   ]
  },
