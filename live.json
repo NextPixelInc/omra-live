@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-23",
-  "min": 700,
-  "level": 0.55,
-  "from": "11:40",
-  "to": "11:40",
+  "min": 710,
+  "level": 0.5,
+  "from": "11:50",
+  "to": "11:50",
   "frames": 6,
   "rings": {
-   "inner": 0.72,
-   "middle": 0.55,
-   "outer": 0.35
+   "inner": 0.7,
+   "middle": 0.5,
+   "outer": 0.3
   },
-  "note": "Vue aérienne : foule dense autour de la Ka‘bah, plus clairsemée vers les bords où les dalles restent visibles, étages supérieurs vides.",
+  "note": "Foule dense près de la Ka‘bah et à droite, mais esplanade à gauche clairsemée avec dalles bien visibles et bords dégagés.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -297,6 +297,10 @@
    {
     "min": 700,
     "level": 0.55
+   },
+   {
+    "min": 710,
+    "level": 0.5
    }
   ]
  },
