@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-23",
-  "min": 780,
-  "level": 0.6,
-  "from": "13:00",
-  "to": "13:00",
-  "frames": 6,
+  "min": 790,
+  "level": 0.85,
+  "from": "13:10",
+  "to": "13:10",
+  "frames": 4,
   "rings": {
    "inner": 0.85,
-   "middle": 0.62,
-   "outer": 0.3
+   "middle": 0.88,
+   "outer": 0.82
   },
-  "note": "Foule très dense à gauche vers la Ka‘bah, qui s'éclaircit en frange vers une esplanade presque vide à droite, sans rangs de prière nets.",
+  "note": "Mataf plein jusqu'aux bords, foule très compacte autour de la Ka‘bah et sur toute l'esplanade, sans dalles visibles.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -329,6 +329,10 @@
    {
     "min": 780,
     "level": 0.6
+   },
+   {
+    "min": 790,
+    "level": 0.85
    }
   ]
  },
