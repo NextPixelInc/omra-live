@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-24",
-  "min": 1401,
-  "level": 0.88,
-  "from": "23:20",
-  "to": "23:21",
+  "min": 1410,
+  "level": 0.72,
+  "from": "23:30",
+  "to": "23:30",
   "frames": 6,
   "rings": {
    "inner": 0.9,
-   "middle": 0.9,
-   "outer": 0.84
+   "middle": 0.75,
+   "outer": 0.5
   },
-  "note": "Mataf saturé de pèlerins en tawaf, foule compacte jusqu'aux bords sans dalles visibles, avec un léger relâchement tout près de la Ka‘bah.",
+  "note": "Mataf très dense autour de la Ka‘bah, avec des bords gauche et haut plus clairsemés où les dalles apparaissent.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -433,6 +433,10 @@
    {
     "min": 1401,
     "level": 0.88
+   },
+   {
+    "min": 1410,
+    "level": 0.72
    }
   ]
  },
