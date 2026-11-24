@@ -1,17 +1,18 @@
 {
  "now": {
   "date": "2026-11-24",
-  "min": 1150,
-  "level": 0.76,
-  "from": "19:10",
-  "to": "19:10",
-  "frames": 3,
+  "min": 1160,
+  "level": 0.8,
+  "from": "19:20",
+  "to": "19:20",
+  "frames": 4,
   "rings": {
-   "middle": 0.8,
-   "outer": 0.72
+   "inner": 0.78,
+   "middle": 0.82,
+   "outer": 0.8
   },
-  "note": "Foule dense sur l'esplanade avec des fidèles en mouvement, bords un peu plus lâches, sans la Ka‘bah visible dans le cadre.",
-  "prayer": false,
+  "note": "Mataf plein de fidèles en rangs concentriques serrés pour la prière du Isha, avec les galeries et les bords eux aussi bien remplis.",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -340,6 +341,10 @@
    {
     "min": 1150,
     "level": 0.76
+   },
+   {
+    "min": 1160,
+    "level": 0.8
    }
   ]
  },
