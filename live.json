@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-24",
-  "min": 490,
-  "level": 0.5,
-  "from": "08:10",
-  "to": "08:10",
+  "min": 510,
+  "level": 0.6,
+  "from": "08:30",
+  "to": "08:30",
   "frames": 6,
   "rings": {
    "inner": 0.75,
-   "middle": 0.5,
-   "outer": 0.3
+   "middle": 0.6,
+   "outer": 0.4
   },
-  "note": "Foule compacte à gauche vers la Ka‘bah, mais esplanade centrale et bords à droite clairsemés, dalles bien visibles.",
+  "note": "Vue aérienne : foule compacte autour de la Ka‘bah, qui s'éclaircit vers les bords où les dalles restent visibles, et esplanades extérieures quasi vides.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -81,6 +81,10 @@
    {
     "min": 490,
     "level": 0.5
+   },
+   {
+    "min": 510,
+    "level": 0.6
    }
   ]
  },
