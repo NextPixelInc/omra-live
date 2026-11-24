@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-24",
-  "min": 750,
-  "level": 0.5,
-  "from": "12:30",
-  "to": "12:30",
+  "min": 760,
+  "level": 0.55,
+  "from": "12:40",
+  "to": "12:40",
   "frames": 6,
   "rings": {
-   "middle": 0.4,
-   "outer": 0.65
+   "middle": 0.5,
+   "outer": 0.72
   },
-  "note": "Plan aérien de l'esplanade : foule dense à gauche et en haut, rangs de prière qui se forment, dalles très dégagées à droite et en bas ; la Ka‘bah n'est pas visi",
-  "prayer": true,
+  "note": "Mataf vu d'en haut : foule dense à droite et sur les bords, mais dalles bien visibles au centre et en haut de l'image, avec des fidèles dispersés qui circulent.",
+  "prayer": false,
   "source": "direct Quran TV"
  },
  "day": {
@@ -180,6 +180,10 @@
    {
     "min": 750,
     "level": 0.5
+   },
+   {
+    "min": 760,
+    "level": 0.55
    }
   ]
  },
