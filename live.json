@@ -1,18 +1,17 @@
 {
  "now": {
   "date": "2026-11-24",
-  "min": 1061,
-  "level": 0.6,
-  "from": "17:40",
-  "to": "17:41",
+  "min": 1070,
+  "level": 0.75,
+  "from": "17:50",
+  "to": "17:50",
   "frames": 2,
   "rings": {
-   "inner": 0.35,
-   "middle": 0.62,
-   "outer": 0.8
+   "middle": 0.85,
+   "outer": 0.6
   },
-  "note": "Vue large du Mataf à l'appel du Maghrib : dalles dégagées près de la Ka‘bah, foule assise et serrée sur les bords.",
-  "prayer": false,
+  "note": "Fidèles en rangs de prière serrés sur une grande partie de l'esplanade, avec une zone dégagée près des barrières en haut de l'image.",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -305,6 +304,10 @@
    {
     "min": 1061,
     "level": 0.6
+   },
+   {
+    "min": 1070,
+    "level": 0.75
    }
   ]
  },
