@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-24",
-  "min": 1160,
-  "level": 0.8,
-  "from": "19:20",
-  "to": "19:20",
-  "frames": 4,
+  "min": 1170,
+  "level": 0.9,
+  "from": "19:30",
+  "to": "19:30",
+  "frames": 5,
   "rings": {
-   "inner": 0.78,
-   "middle": 0.82,
-   "outer": 0.8
+   "inner": 0.93,
+   "middle": 0.9,
+   "outer": 0.86
   },
-  "note": "Mataf plein de fidèles en rangs concentriques serrés pour la prière du Isha, avec les galeries et les bords eux aussi bien remplis.",
+  "note": "Mataf plein jusqu'aux bords, fidèles en rangs concentriques serrés autour de la Ka‘bah pour la prière, étages alentour bien remplis aussi.",
   "prayer": true,
   "source": "direct Quran TV"
  },
@@ -345,6 +345,10 @@
    {
     "min": 1160,
     "level": 0.8
+   },
+   {
+    "min": 1170,
+    "level": 0.9
    }
   ]
  },
