@@ -1,16 +1,16 @@
 {
  "now": {
   "date": "2026-11-24",
-  "min": 1070,
-  "level": 0.75,
-  "from": "17:50",
-  "to": "17:50",
-  "frames": 2,
+  "min": 1080,
+  "level": 0.85,
+  "from": "18:00",
+  "to": "18:00",
+  "frames": 6,
   "rings": {
    "middle": 0.85,
-   "outer": 0.6
+   "outer": 0.88
   },
-  "note": "Fidèles en rangs de prière serrés sur une grande partie de l'esplanade, avec une zone dégagée près des barrières en haut de l'image.",
+  "note": "Foule très dense, serrée en rangs sur l'esplanade et les étages, sans dalles visibles. La Ka‘bah est à peine visible en bord de cadre.",
   "prayer": true,
   "source": "direct Quran TV"
  },
@@ -308,6 +308,10 @@
    {
     "min": 1070,
     "level": 0.75
+   },
+   {
+    "min": 1080,
+    "level": 0.85
    }
   ]
  },
