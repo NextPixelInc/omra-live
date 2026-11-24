@@ -1,17 +1,18 @@
 {
  "now": {
   "date": "2026-11-24",
-  "min": 970,
-  "level": 0.6,
-  "from": "16:10",
-  "to": "16:10",
+  "min": 980,
+  "level": 0.82,
+  "from": "16:20",
+  "to": "16:20",
   "frames": 6,
   "rings": {
-   "middle": 0.75,
-   "outer": 0.4
+   "inner": 0.85,
+   "middle": 0.85,
+   "outer": 0.75
   },
-  "note": "Foule compacte et immobile au premier plan à gauche, tandis que la partie droite et les bords restent dégagés, avec des dalles bien visibles et quelques pèlerin",
-  "prayer": true,
+  "note": "Mataf très dense, foule compacte jusqu'aux premiers plans, avec des bords du fond un peu plus lâches et un petit espace dégagé au pied de la Ka‘bah.",
+  "prayer": false,
   "source": "direct Quran TV"
  },
  "day": {
@@ -268,6 +269,10 @@
    {
     "min": 970,
     "level": 0.6
+   },
+   {
+    "min": 980,
+    "level": 0.82
    }
   ]
  },
