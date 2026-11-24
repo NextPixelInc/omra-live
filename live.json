@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-24",
-  "min": 730,
-  "level": 0.66,
-  "from": "12:10",
-  "to": "12:10",
-  "frames": 2,
+  "min": 740,
+  "level": 0.8,
+  "from": "12:20",
+  "to": "12:20",
+  "frames": 6,
   "rings": {
-   "inner": 0.82,
-   "middle": 0.66,
-   "outer": 0.4
+   "inner": 0.85,
+   "middle": 0.85,
+   "outer": 0.7
   },
-  "note": "Vue plongée : bloc compact de fidèles assis ou en rangs au centre, avec des passants dispersés et des dalles visibles sur les bords (images 5 et 6) ; les images",
+  "note": "Mataf très dense, fidèles en rangs serrés de prière autour de la Ka‘bah, avec quelques dalles dégagées vers le haut de l'image et près de la Ka‘bah.",
   "prayer": true,
   "source": "direct Quran TV"
  },
@@ -173,6 +173,10 @@
    {
     "min": 730,
     "level": 0.66
+   },
+   {
+    "min": 740,
+    "level": 0.8
    }
   ]
  },
