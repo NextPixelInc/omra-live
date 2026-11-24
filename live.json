@@ -1,18 +1,18 @@
 {
  "now": {
   "date": "2026-11-24",
-  "min": 1110,
-  "level": 0.86,
-  "from": "18:30",
-  "to": "18:30",
+  "min": 1120,
+  "level": 0.88,
+  "from": "18:40",
+  "to": "18:40",
   "frames": 6,
   "rings": {
-   "inner": 0.9,
-   "middle": 0.87,
-   "outer": 0.8
+   "inner": 0.85,
+   "middle": 0.9,
+   "outer": 0.9
   },
-  "note": "Mataf plein à craquer, foule compacte en rangs serrés jusqu'aux bords, seul un couloir dégagé à gauche, et la Ka‘bah visible à droite sur les dernières images.",
-  "prayer": true,
+  "note": "Mataf très dense, foule compacte jusqu'aux bords et au premier plan, sans dalles visibles, presque saturé.",
+  "prayer": false,
   "source": "direct Quran TV"
  },
  "day": {
@@ -325,6 +325,10 @@
    {
     "min": 1110,
     "level": 0.86
+   },
+   {
+    "min": 1120,
+    "level": 0.88
    }
   ]
  },
