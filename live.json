@@ -1,17 +1,16 @@
 {
  "now": {
   "date": "2026-11-24",
-  "min": 740,
-  "level": 0.8,
-  "from": "12:20",
-  "to": "12:20",
+  "min": 750,
+  "level": 0.5,
+  "from": "12:30",
+  "to": "12:30",
   "frames": 6,
   "rings": {
-   "inner": 0.85,
-   "middle": 0.85,
-   "outer": 0.7
+   "middle": 0.4,
+   "outer": 0.65
   },
-  "note": "Mataf très dense, fidèles en rangs serrés de prière autour de la Ka‘bah, avec quelques dalles dégagées vers le haut de l'image et près de la Ka‘bah.",
+  "note": "Plan aérien de l'esplanade : foule dense à gauche et en haut, rangs de prière qui se forment, dalles très dégagées à droite et en bas ; la Ka‘bah n'est pas visi",
   "prayer": true,
   "source": "direct Quran TV"
  },
@@ -177,6 +176,10 @@
    {
     "min": 740,
     "level": 0.8
+   },
+   {
+    "min": 750,
+    "level": 0.5
    }
   ]
  },
