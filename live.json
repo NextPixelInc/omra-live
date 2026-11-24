@@ -1,16 +1,16 @@
 {
  "now": {
   "date": "2026-11-24",
-  "min": 400,
-  "level": 0.25,
-  "from": "06:40",
-  "to": "06:40",
+  "min": 410,
+  "level": 0.68,
+  "from": "06:50",
+  "to": "06:50",
   "frames": 6,
   "rings": {
-   "middle": 0.27,
-   "outer": 0.22
+   "middle": 0.82,
+   "outer": 0.4
   },
-  "note": "Vaste esplanade vue de haut, fidèles dispersés avec des dalles bien visibles ; la foule s'épaissit un peu vers le centre et le haut de l'image.",
+  "note": "Plan large sur le Mataf : foule très dense à droite, avec des fidèles en circulation, et bord gauche nettement plus clairsemé avec des dalles visibles ; la Ka‘b",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -44,6 +44,10 @@
    {
     "min": 400,
     "level": 0.25
+   },
+   {
+    "min": 410,
+    "level": 0.68
    }
   ]
  },
