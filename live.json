@@ -1,17 +1,16 @@
 {
  "now": {
   "date": "2026-11-24",
-  "min": 1120,
-  "level": 0.88,
-  "from": "18:40",
-  "to": "18:40",
+  "min": 1130,
+  "level": 0.58,
+  "from": "18:50",
+  "to": "18:50",
   "frames": 6,
   "rings": {
-   "inner": 0.85,
-   "middle": 0.9,
-   "outer": 0.9
+   "middle": 0.62,
+   "outer": 0.55
   },
-  "note": "Mataf très dense, foule compacte jusqu'aux bords et au premier plan, sans dalles visibles, presque saturé.",
+  "note": "Bord du Mataf vu de côté : pèlerins en ihram qui marchent en flux continu, foule assez fournie au premier plan mais dalles encore visibles par endroits.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -329,6 +328,10 @@
    {
     "min": 1120,
     "level": 0.88
+   },
+   {
+    "min": 1130,
+    "level": 0.58
    }
   ]
  },
