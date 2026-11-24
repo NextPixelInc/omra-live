@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-24",
-  "min": 610,
-  "level": 0.82,
-  "from": "10:10",
-  "to": "10:10",
+  "min": 620,
+  "level": 0.72,
+  "from": "10:20",
+  "to": "10:20",
   "frames": 6,
   "rings": {
-   "inner": 0.88,
-   "middle": 0.85,
-   "outer": 0.65
+   "inner": 0.85,
+   "middle": 0.72,
+   "outer": 0.5
   },
-  "note": "Mataf très dense côté gauche et au premier plan, avec des bords plus clairsemés en haut à droite où les dalles restent visibles.",
+  "note": "Mataf très dense à gauche et au centre, bord droit plus clairsemé avec dalles visibles ; la foule circule.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -125,6 +125,10 @@
    {
     "min": 610,
     "level": 0.82
+   },
+   {
+    "min": 620,
+    "level": 0.72
    }
   ]
  },
