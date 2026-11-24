@@ -1,18 +1,17 @@
 {
  "now": {
   "date": "2026-11-24",
-  "min": 1170,
-  "level": 0.9,
-  "from": "19:30",
-  "to": "19:30",
-  "frames": 5,
+  "min": 1180,
+  "level": 0.82,
+  "from": "19:40",
+  "to": "19:40",
+  "frames": 6,
   "rings": {
-   "inner": 0.93,
-   "middle": 0.9,
-   "outer": 0.86
+   "middle": 0.85,
+   "outer": 0.78
   },
-  "note": "Mataf plein jusqu'aux bords, fidèles en rangs concentriques serrés autour de la Ka‘bah pour la prière, étages alentour bien remplis aussi.",
-  "prayer": true,
+  "note": "Esplanade très dense, foule compacte jusqu'aux bords et aux passages, avec quelques zones un peu plus claires près des escaliers à droite ; la Ka‘bah n'est pas ",
+  "prayer": false,
   "source": "direct Quran TV"
  },
  "day": {
@@ -349,6 +348,10 @@
    {
     "min": 1170,
     "level": 0.9
+   },
+   {
+    "min": 1180,
+    "level": 0.82
    }
   ]
  },
