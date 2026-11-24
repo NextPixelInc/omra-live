@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-24",
-  "min": 880,
-  "level": 0.55,
-  "from": "14:40",
-  "to": "14:40",
-  "frames": 1,
+  "min": 890,
+  "level": 0.68,
+  "from": "14:50",
+  "to": "14:50",
+  "frames": 6,
   "rings": {
-   "inner": 0.8,
-   "middle": 0.6,
-   "outer": 0.2
+   "inner": 0.85,
+   "middle": 0.7,
+   "outer": 0.45
   },
-  "note": "Vue aérienne : foule compacte autour de la Ka‘bah, mais les dalles blanches des bords et de l'esplanade extérieure restent dégagées.",
+  "note": "Foule dense et continue autour de la Ka‘bah, qui s'éclaircit vers les bords où les dalles apparaissent, avec une circulation en tawaf.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -233,6 +233,10 @@
    {
     "min": 880,
     "level": 0.55
+   },
+   {
+    "min": 890,
+    "level": 0.68
    }
   ]
  },
