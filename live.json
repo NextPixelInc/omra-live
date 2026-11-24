@@ -1,18 +1,18 @@
 {
  "now": {
   "date": "2026-11-24",
-  "min": 1040,
-  "level": 0.82,
-  "from": "17:20",
-  "to": "17:20",
-  "frames": 6,
+  "min": 1050,
+  "level": 0.72,
+  "from": "17:30",
+  "to": "17:30",
+  "frames": 5,
   "rings": {
    "inner": 0.85,
-   "middle": 0.85,
-   "outer": 0.75
+   "middle": 0.75,
+   "outer": 0.4
   },
-  "note": "Mataf plein, foule compacte en mouvement autour de la Ka‘bah jusqu'aux bords, avec quelques dalles visibles en bordure droite et en avant-plan.",
-  "prayer": false,
+  "note": "Foule dense et assise autour de la Ka‘bah, qui attend sans tourner, tandis que le bord du Mataf est bien plus clairsemé, avec des dalles visibles et des pèlerin",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -297,6 +297,10 @@
    {
     "min": 1040,
     "level": 0.82
+   },
+   {
+    "min": 1050,
+    "level": 0.72
    }
   ]
  },
