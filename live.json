@@ -1,17 +1,16 @@
 {
  "now": {
   "date": "2026-11-24",
-  "min": 820,
-  "level": 0.85,
-  "from": "13:40",
-  "to": "13:40",
+  "min": 830,
+  "level": 0.2,
+  "from": "13:50",
+  "to": "13:50",
   "frames": 6,
   "rings": {
-   "inner": 0.9,
-   "middle": 0.87,
-   "outer": 0.78
+   "middle": 0.15,
+   "outer": 0.25
   },
-  "note": "Mataf très dense, foule compacte jusqu'aux bords, seules quelques dalles visibles en bas à gauche, la foule semble circuler.",
+  "note": "Esplanade clairsemée aux dalles bien visibles, avec quelques petits groupes dispersés et une foule qui s'épaissit un peu en bas à gauche et en bas à droite au f",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -209,6 +208,10 @@
    {
     "min": 820,
     "level": 0.85
+   },
+   {
+    "min": 830,
+    "level": 0.2
    }
   ]
  },
