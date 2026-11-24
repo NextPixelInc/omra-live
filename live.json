@@ -1,18 +1,18 @@
 {
  "now": {
   "date": "2026-11-24",
-  "min": 640,
-  "level": 0.82,
-  "from": "10:40",
-  "to": "10:40",
-  "frames": 5,
+  "min": 650,
+  "level": 0.83,
+  "from": "10:50",
+  "to": "10:50",
+  "frames": 3,
   "rings": {
    "inner": 0.88,
-   "middle": 0.82,
-   "outer": 0.74
+   "middle": 0.85,
+   "outer": 0.72
   },
-  "note": "Mataf plein autour de la Ka‘bah, avec des rangs de prière visibles à gauche et des bords un peu plus clairsemés en haut.",
-  "prayer": true,
+  "note": "Mataf très dense vu d'en haut, foule serrée autour de la Ka‘bah et jusqu'aux bords du cadre, un peu plus lâche en haut de l'image.",
+  "prayer": false,
   "source": "direct Quran TV"
  },
  "day": {
@@ -137,6 +137,10 @@
    {
     "min": 640,
     "level": 0.82
+   },
+   {
+    "min": 650,
+    "level": 0.83
    }
   ]
  },
