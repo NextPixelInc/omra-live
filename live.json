@@ -1,16 +1,17 @@
 {
  "now": {
   "date": "2026-11-24",
-  "min": 1000,
+  "min": 1010,
   "level": 0.8,
-  "from": "16:40",
-  "to": "16:40",
-  "frames": 6,
+  "from": "16:50",
+  "to": "16:50",
+  "frames": 2,
   "rings": {
-   "middle": 0.82,
+   "inner": 0.85,
+   "middle": 0.8,
    "outer": 0.72
   },
-  "note": "Mataf très dense en plan large, foule compacte au premier plan et au milieu, bords du fond un peu plus aérés.",
+  "note": "Mataf dense : foule compacte autour de la Ka‘bah et jusqu'aux bords, avec quelques zones un peu plus lâches en périphérie.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -279,6 +280,10 @@
    },
    {
     "min": 1000,
+    "level": 0.8
+   },
+   {
+    "min": 1010,
     "level": 0.8
    }
   ]
