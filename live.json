@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-25",
-  "min": 1030,
-  "level": 0.8,
-  "from": "17:10",
-  "to": "17:10",
+  "min": 1040,
+  "level": 0.85,
+  "from": "17:20",
+  "to": "17:20",
   "frames": 6,
   "rings": {
-   "inner": 0.85,
-   "middle": 0.85,
-   "outer": 0.7
+   "inner": 0.88,
+   "middle": 0.86,
+   "outer": 0.8
   },
-  "note": "Mataf très dense et plein autour de la Ka‘bah, avec des bords un peu plus lâches et quelques couloirs dégagés près des barrières.",
+  "note": "Mataf très dense et continu autour de la Ka‘bah, presque plein jusqu'aux bords, avec quelques dalles visibles en bas à droite.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -409,6 +409,10 @@
    {
     "min": 1030,
     "level": 0.8
+   },
+   {
+    "min": 1040,
+    "level": 0.85
    }
   ]
  },
