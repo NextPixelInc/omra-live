@@ -1,16 +1,18 @@
 {
  "now": {
   "date": "2026-11-25",
-  "min": 340,
-  "level": 0.95,
-  "from": "05:40",
-  "to": "05:40",
+  "min": 350,
+  "level": 0.8,
+  "from": "05:50",
+  "to": "05:50",
   "frames": 5,
   "rings": {
-   "middle": 0.95
+   "inner": 0.78,
+   "middle": 0.8,
+   "outer": 0.85
   },
-  "note": "Téléobjectif sur une foule en ihram compacte, épaule contre épaule et alignée en rangs pour la prière de l'aube, sans aucune dalle visible.",
-  "prayer": true,
+  "note": "Mataf plein jusqu'aux bords, foule en blanc compacte autour de la Ka‘bah et bords sombres très chargés, sans changement net entre les images.",
+  "prayer": false,
   "source": "direct Quran TV"
  },
  "day": {
@@ -135,6 +137,10 @@
    {
     "min": 340,
     "level": 0.95
+   },
+   {
+    "min": 350,
+    "level": 0.8
    }
   ]
  },
