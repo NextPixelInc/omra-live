@@ -1,17 +1,18 @@
 {
  "now": {
   "date": "2026-11-25",
-  "min": 730,
-  "level": 0.12,
-  "from": "12:10",
-  "to": "12:10",
-  "frames": 2,
+  "min": 740,
+  "level": 0.8,
+  "from": "12:20",
+  "to": "12:20",
+  "frames": 6,
   "rings": {
-   "middle": 0.12,
-   "outer": 0.12
+   "inner": 0.82,
+   "middle": 0.85,
+   "outer": 0.75
   },
-  "note": "Esplanade très clairsemée, dalles largement visibles et quelques fidèles isolés qui marchent, sans la Ka‘bah dans le champ.",
-  "prayer": false,
+  "note": "Mataf plein de fidèles en tenue blanche, alignés en rangs de prière concentriques autour de la Ka‘bah jusqu'aux barrières, avec quelques dalles visibles près de",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -292,6 +293,10 @@
    {
     "min": 730,
     "level": 0.12
+   },
+   {
+    "min": 740,
+    "level": 0.8
    }
   ]
  },
