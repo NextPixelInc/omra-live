@@ -1,16 +1,16 @@
 {
  "now": {
   "date": "2026-11-25",
-  "min": 290,
-  "level": 0.88,
-  "from": "04:50",
-  "to": "04:50",
-  "frames": 6,
+  "min": 310,
+  "level": 0.7,
+  "from": "05:10",
+  "to": "05:10",
+  "frames": 4,
   "rings": {
-   "middle": 0.85,
-   "outer": 0.9
+   "middle": 0.75,
+   "outer": 0.6
   },
-  "note": "Foule très dense, serrée jusqu'aux bords et aux galeries, fidèles en rangs compacts sans dalles visibles (la Ka‘bah elle-même n'est pas dans le champ).",
+  "note": "Foule assise en rangs serrés sur l'esplanade, avec quelques allées dégagées et des bords plus clairsemés ; personne ne tourne.",
   "prayer": true,
   "source": "direct Quran TV"
  },
@@ -120,6 +120,10 @@
    {
     "min": 290,
     "level": 0.88
+   },
+   {
+    "min": 310,
+    "level": 0.7
    }
   ]
  },
