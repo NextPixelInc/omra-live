@@ -1,18 +1,17 @@
 {
  "now": {
   "date": "2026-11-25",
-  "min": 1070,
-  "level": 0.85,
-  "from": "17:50",
-  "to": "17:50",
-  "frames": 6,
+  "min": 1080,
+  "level": 0.9,
+  "from": "18:00",
+  "to": "18:00",
+  "frames": 2,
   "rings": {
-   "inner": 0.92,
-   "middle": 0.88,
-   "outer": 0.75
+   "middle": 0.92,
+   "outer": 0.88
   },
-  "note": "Mataf en prière du Maghrib : les rangs en arcs se remplissent d'une image à l'autre jusqu'à couvrir presque tout l'esplanade, avec quelques vides sur les bords.",
-  "prayer": true,
+  "note": "Mataf saturé de pèlerins en ihram blanc, sans dalles visibles, jusqu'aux arcades du fond et aux étages ; la Ka‘bah n'est pas dans le champ.",
+  "prayer": false,
   "source": "direct Quran TV"
  },
  "day": {
@@ -425,6 +424,10 @@
    {
     "min": 1070,
     "level": 0.85
+   },
+   {
+    "min": 1080,
+    "level": 0.9
    }
   ]
  },
