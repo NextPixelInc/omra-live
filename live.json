@@ -1,13 +1,17 @@
 {
  "now": {
   "date": "2026-11-25",
-  "min": 1160,
-  "level": 0.9,
-  "from": "19:20",
-  "to": "19:20",
-  "frames": 2,
-  "rings": {},
-  "note": "Foule en ihram très compacte, alignée en rangs de prière, sans aucune dalle visible.",
+  "min": 1170,
+  "level": 0.8,
+  "from": "19:30",
+  "to": "19:30",
+  "frames": 6,
+  "rings": {
+   "inner": 0.92,
+   "middle": 0.85,
+   "outer": 0.65
+  },
+  "note": "Mataf en prière de Isha, rangs concentriques serrés autour de la Ka‘bah, qui se densifient au fil des images, avec encore des dalles libres à droite dans les pr",
   "prayer": true,
   "source": "direct Quran TV"
  },
@@ -457,6 +461,10 @@
    {
     "min": 1160,
     "level": 0.9
+   },
+   {
+    "min": 1170,
+    "level": 0.8
    }
   ]
  },
