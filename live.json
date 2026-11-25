@@ -1,18 +1,14 @@
 {
  "now": {
   "date": "2026-11-25",
-  "min": 1150,
-  "level": 0.25,
-  "from": "19:10",
-  "to": "19:10",
-  "frames": 1,
-  "rings": {
-   "inner": 0.3,
-   "middle": 0.22,
-   "outer": 0.35
-  },
-  "note": "Une seule vue montre le Mataf, près d'un angle de la Ka‘bah : dalles bien visibles et fidèles espacés, avec un groupe plus serré sur la droite.",
-  "prayer": false,
+  "min": 1160,
+  "level": 0.9,
+  "from": "19:20",
+  "to": "19:20",
+  "frames": 2,
+  "rings": {},
+  "note": "Foule en ihram très compacte, alignée en rangs de prière, sans aucune dalle visible.",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -457,6 +453,10 @@
    {
     "min": 1150,
     "level": 0.25
+   },
+   {
+    "min": 1160,
+    "level": 0.9
    }
   ]
  },
