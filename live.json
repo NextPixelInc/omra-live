@@ -1,16 +1,17 @@
 {
  "now": {
   "date": "2026-11-25",
-  "min": 1080,
-  "level": 0.9,
-  "from": "18:00",
-  "to": "18:00",
-  "frames": 2,
+  "min": 1090,
+  "level": 0.8,
+  "from": "18:10",
+  "to": "18:10",
+  "frames": 6,
   "rings": {
-   "middle": 0.92,
-   "outer": 0.88
+   "inner": 0.85,
+   "middle": 0.8,
+   "outer": 0.74
   },
-  "note": "Mataf saturé de pèlerins en ihram blanc, sans dalles visibles, jusqu'aux arcades du fond et aux étages ; la Ka‘bah n'est pas dans le champ.",
+  "note": "Mataf très dense et en mouvement autour de la Ka‘bah, foule jusqu'aux bords avec quelques zones un peu plus claires en périphérie.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -428,6 +429,10 @@
    {
     "min": 1080,
     "level": 0.9
+   },
+   {
+    "min": 1090,
+    "level": 0.8
    }
   ]
  },
