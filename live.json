@@ -1,18 +1,18 @@
 {
  "now": {
   "date": "2026-11-25",
-  "min": 210,
-  "level": 0.7,
-  "from": "03:30",
-  "to": "03:30",
+  "min": 240,
+  "level": 0.88,
+  "from": "04:00",
+  "to": "04:00",
   "frames": 6,
   "rings": {
-   "inner": 0.88,
-   "middle": 0.75,
-   "outer": 0.35
+   "inner": 0.92,
+   "middle": 0.9,
+   "outer": 0.8
   },
-  "note": "Foule très dense près de la Ka‘bah et sur les côtés gauches, une zone de marbre dégagée au centre, et esplanade extérieure à droite clairsemée avec quelques pas",
-  "prayer": true,
+  "note": "Mataf saturé de fidèles sur toute l'esplanade, dalles invisibles, avec un peu plus d'espace près des bords et de l'étage au fond.",
+  "prayer": false,
   "source": "direct Quran TV"
  },
  "day": {
@@ -97,6 +97,10 @@
    {
     "min": 210,
     "level": 0.7
+   },
+   {
+    "min": 240,
+    "level": 0.88
    }
   ]
  },
