@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-25",
-  "min": 1290,
-  "level": 0.82,
-  "from": "21:30",
-  "to": "21:30",
+  "min": 1300,
+  "level": 0.85,
+  "from": "21:40",
+  "to": "21:40",
   "frames": 6,
   "rings": {
-   "inner": 0.85,
-   "middle": 0.82,
-   "outer": 0.78
+   "inner": 0.88,
+   "middle": 0.86,
+   "outer": 0.8
   },
-  "note": "Mataf très dense, foule compacte sur toute l'esplanade jusqu'aux premiers plans, avec des bords à peine plus lâches ; les fidèles circulent autour de la Ka‘bah.",
+  "note": "Mataf très dense, foule compacte jusqu'aux bords et au premier plan, sans dalles visibles, avec quelques zones un peu plus lâches en bas.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -513,6 +513,10 @@
    {
     "min": 1290,
     "level": 0.82
+   },
+   {
+    "min": 1300,
+    "level": 0.85
    }
   ]
  },
