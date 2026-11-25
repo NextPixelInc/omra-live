@@ -1,18 +1,18 @@
 {
  "now": {
   "date": "2026-11-25",
-  "min": 920,
-  "level": 0.35,
-  "from": "15:20",
-  "to": "15:20",
-  "frames": 6,
+  "min": 930,
+  "level": 0.5,
+  "from": "15:30",
+  "to": "15:30",
+  "frames": 5,
   "rings": {
-   "inner": 0.45,
-   "middle": 0.3,
-   "outer": 0.4
+   "inner": 0.6,
+   "middle": 0.5,
+   "outer": 0.3
   },
-  "note": "Mataf clairsemé à modéré, pèlerins en marche et dalles bien visibles, avec des grappes plus denses près des barrières et des bords.",
-  "prayer": false,
+  "note": "Fidèles en rangs de prière en arcs autour de la Ka‘bah, denses près d'elle, mais avec de larges dalles dégagées sur les bords et à l'avant.",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -369,6 +369,10 @@
    {
     "min": 920,
     "level": 0.35
+   },
+   {
+    "min": 930,
+    "level": 0.5
    }
   ]
  },
