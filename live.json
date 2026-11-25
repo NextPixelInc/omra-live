@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-26",
-  "min": 0,
-  "level": 0.88,
-  "from": "00:00",
-  "to": "00:00",
+  "min": 10,
+  "level": 0.7,
+  "from": "00:10",
+  "to": "00:10",
   "frames": 6,
   "rings": {
-   "inner": 0.92,
-   "middle": 0.9,
-   "outer": 0.82
+   "inner": 0.8,
+   "middle": 0.72,
+   "outer": 0.5
   },
-  "note": "Mataf plein à craquer, foule compacte sur toute l'esplanade jusqu'aux bords et aux arcades, sans dalles visibles.",
+  "note": "Mataf dense côté droit, avec des dalles bien visibles et une foule clairsemée sur le bord gauche ; la foule circule.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -21,6 +21,10 @@
    {
     "min": 0,
     "level": 0.88
+   },
+   {
+    "min": 10,
+    "level": 0.7
    }
   ]
  },
