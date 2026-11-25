@@ -1,18 +1,17 @@
 {
  "now": {
   "date": "2026-11-25",
-  "min": 1170,
-  "level": 0.8,
-  "from": "19:30",
-  "to": "19:30",
-  "frames": 6,
+  "min": 1180,
+  "level": 0.76,
+  "from": "19:40",
+  "to": "19:40",
+  "frames": 3,
   "rings": {
-   "inner": 0.92,
-   "middle": 0.85,
-   "outer": 0.65
+   "middle": 0.82,
+   "outer": 0.6
   },
-  "note": "Mataf en prière de Isha, rangs concentriques serrés autour de la Ka‘bah, qui se densifient au fil des images, avec encore des dalles libres à droite dans les pr",
-  "prayer": true,
+  "note": "Mataf dense au centre et en bas à gauche, bords et côté droit plus clairsemés, foule en mouvement.",
+  "prayer": false,
   "source": "direct Quran TV"
  },
  "day": {
@@ -465,6 +464,10 @@
    {
     "min": 1170,
     "level": 0.8
+   },
+   {
+    "min": 1180,
+    "level": 0.76
    }
   ]
  },
