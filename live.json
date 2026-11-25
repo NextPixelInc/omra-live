@@ -1,17 +1,18 @@
 {
  "now": {
   "date": "2026-11-25",
-  "min": 1060,
-  "level": 0.78,
-  "from": "17:40",
-  "to": "17:40",
-  "frames": 2,
+  "min": 1070,
+  "level": 0.85,
+  "from": "17:50",
+  "to": "17:50",
+  "frames": 6,
   "rings": {
-   "middle": 0.8,
+   "inner": 0.92,
+   "middle": 0.88,
    "outer": 0.75
   },
-  "note": "Foule dense sur le Mataf et les étages en arrière-plan, fidèles en mouvement, avec quelques zones plus aérées près du bord et de la rampe.",
-  "prayer": false,
+  "note": "Mataf en prière du Maghrib : les rangs en arcs se remplissent d'une image à l'autre jusqu'à couvrir presque tout l'esplanade, avec quelques vides sur les bords.",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -420,6 +421,10 @@
    {
     "min": 1060,
     "level": 0.78
+   },
+   {
+    "min": 1070,
+    "level": 0.85
    }
   ]
  },
