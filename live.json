@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-25",
-  "min": 280,
-  "level": 0.35,
-  "from": "04:40",
-  "to": "04:40",
+  "min": 290,
+  "level": 0.88,
+  "from": "04:50",
+  "to": "04:50",
   "frames": 6,
   "rings": {
-   "middle": 0.45,
-   "outer": 0.25
+   "middle": 0.85,
+   "outer": 0.9
   },
-  "note": "Plan large de l'esplanade côté périphérie : bande de fidèles assez serrée au centre, mais vastes dalles dégagées sur les bords, foule en mouvement.",
-  "prayer": false,
+  "note": "Foule très dense, serrée jusqu'aux bords et aux galeries, fidèles en rangs compacts sans dalles visibles (la Ka‘bah elle-même n'est pas dans le champ).",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -116,6 +116,10 @@
    {
     "min": 280,
     "level": 0.35
+   },
+   {
+    "min": 290,
+    "level": 0.88
    }
   ]
  },
