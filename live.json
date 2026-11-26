@@ -1,17 +1,18 @@
 {
  "now": {
   "date": "2026-11-26",
-  "min": 730,
-  "level": 0.28,
-  "from": "12:10",
-  "to": "12:10",
-  "frames": 3,
+  "min": 740,
+  "level": 0.88,
+  "from": "12:20",
+  "to": "12:20",
+  "frames": 5,
   "rings": {
-   "middle": 0.35,
-   "outer": 0.18
+   "inner": 0.9,
+   "middle": 0.9,
+   "outer": 0.85
   },
-  "note": "Esplanade clairsemée vue d'en haut, avec des grappes de pèlerins en marche et de larges dalles dégagées, surtout sur les bords. La Ka‘bah n'est pas visible.",
-  "prayer": false,
+  "note": "Mataf plein de fidèles en tenue blanche, serrés et alignés en rangs de prière (certains en prosternation) jusqu'aux bords, avec seulement un petit espace dégagé",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -244,6 +245,10 @@
    {
     "min": 730,
     "level": 0.28
+   },
+   {
+    "min": 740,
+    "level": 0.88
    }
   ]
  },
