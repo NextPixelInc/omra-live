@@ -1,16 +1,17 @@
 {
  "now": {
   "date": "2026-11-26",
-  "min": 470,
-  "level": 0.35,
-  "from": "07:50",
-  "to": "07:50",
+  "min": 480,
+  "level": 0.6,
+  "from": "08:00",
+  "to": "08:00",
   "frames": 6,
   "rings": {
-   "middle": 0.42,
-   "outer": 0.25
+   "inner": 0.85,
+   "middle": 0.6,
+   "outer": 0.35
   },
-  "note": "Vue plongeante sur un coin de l'esplanade : foule clairsemée à gauche et au premier plan, dalles bien visibles, mais qui s'épaissit à droite vers la Ka‘bah (hor",
+  "note": "Foule compacte et continue autour de la Ka‘bah, qui s'éclaircit nettement vers la gauche et le haut où les dalles restent bien visibles.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -192,6 +193,10 @@
    {
     "min": 470,
     "level": 0.35
+   },
+   {
+    "min": 480,
+    "level": 0.6
    }
   ]
  },
