@@ -1,15 +1,17 @@
 {
  "now": {
   "date": "2026-11-26",
-  "min": 250,
-  "level": 0.45,
-  "from": "04:10",
-  "to": "04:10",
-  "frames": 3,
+  "min": 260,
+  "level": 0.85,
+  "from": "04:20",
+  "to": "04:20",
+  "frames": 6,
   "rings": {
-   "outer": 0.45
+   "inner": 0.9,
+   "middle": 0.87,
+   "outer": 0.78
   },
-  "note": "Seule la périphérie du Mataf est visible : forte densité de fidèles à droite et sur les côtés, esplanade à gauche presque dégagée avec dalles bien visibles.",
+  "note": "Mataf très dense et plein jusqu'aux bords côté Ka‘bah, avec les galeries du haut bien remplies ; seule l'esplanade extérieure à droite reste clairsemée.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -111,6 +113,10 @@
    {
     "min": 250,
     "level": 0.45
+   },
+   {
+    "min": 260,
+    "level": 0.85
    }
   ]
  },
