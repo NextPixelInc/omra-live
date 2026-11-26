@@ -1,17 +1,17 @@
 {
  "now": {
   "date": "2026-11-26",
-  "min": 750,
-  "level": 0.55,
-  "from": "12:30",
-  "to": "12:30",
-  "frames": 3,
+  "min": 760,
+  "level": 0.7,
+  "from": "12:40",
+  "to": "12:40",
+  "frames": 6,
   "rings": {
-   "inner": 0.6,
-   "middle": 0.55,
-   "outer": 0.4
+   "inner": 0.85,
+   "middle": 0.7,
+   "outer": 0.5
   },
-  "note": "Plan aérien : seul un coin du Mataf apparaît à droite (images 4 à 6), avec une foule assez présente près de la Ka‘bah et des bords plus dégagés ; les images 1 à",
+  "note": "Mataf dense près de la Ka‘bah et à mi-distance, avec des dalles visibles et des bords plus lâches au premier plan.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -253,6 +253,10 @@
    {
     "min": 750,
     "level": 0.55
+   },
+   {
+    "min": 760,
+    "level": 0.7
    }
   ]
  },
