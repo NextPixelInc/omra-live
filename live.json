@@ -1,17 +1,16 @@
 {
  "now": {
   "date": "2026-11-26",
-  "min": 460,
-  "level": 0.75,
-  "from": "07:40",
-  "to": "07:40",
+  "min": 470,
+  "level": 0.35,
+  "from": "07:50",
+  "to": "07:50",
   "frames": 6,
   "rings": {
-   "inner": 0.85,
-   "middle": 0.75,
-   "outer": 0.62
+   "middle": 0.42,
+   "outer": 0.25
   },
-  "note": "Mataf dense autour de la Ka‘bah, foule en mouvement, avec quelques dalles visibles sur le bord droit au premier plan.",
+  "note": "Vue plongeante sur un coin de l'esplanade : foule clairsemée à gauche et au premier plan, dalles bien visibles, mais qui s'épaissit à droite vers la Ka‘bah (hor",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -189,6 +188,10 @@
    {
     "min": 460,
     "level": 0.75
+   },
+   {
+    "min": 470,
+    "level": 0.35
    }
   ]
  },
