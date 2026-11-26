@@ -1,18 +1,18 @@
 {
  "now": {
   "date": "2026-11-26",
-  "min": 910,
-  "level": 0.68,
-  "from": "15:10",
-  "to": "15:10",
+  "min": 920,
+  "level": 0.55,
+  "from": "15:20",
+  "to": "15:20",
   "frames": 6,
   "rings": {
-   "inner": 0.85,
-   "middle": 0.7,
-   "outer": 0.45
+   "inner": 0.7,
+   "middle": 0.35,
+   "outer": 0.75
   },
-  "note": "Mataf très dense près de la Ka‘bah, plus clairsemé au premier plan avec des dalles visibles, les fidèles circulent.",
-  "prayer": false,
+  "note": "Fidèles assis en rangs serrés près de la Ka‘bah et sur les bords, avec une zone centrale clairsemée aux dalles visibles, avant la prière du ‘Asr.",
+  "prayer": true,
   "source": "direct Quran TV"
  },
  "day": {
@@ -317,6 +317,10 @@
    {
     "min": 910,
     "level": 0.68
+   },
+   {
+    "min": 920,
+    "level": 0.55
    }
   ]
  },
