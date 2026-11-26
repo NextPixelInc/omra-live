@@ -1,18 +1,18 @@
 {
  "now": {
   "date": "2026-11-26",
-  "min": 740,
-  "level": 0.88,
-  "from": "12:20",
-  "to": "12:20",
-  "frames": 5,
+  "min": 750,
+  "level": 0.55,
+  "from": "12:30",
+  "to": "12:30",
+  "frames": 3,
   "rings": {
-   "inner": 0.9,
-   "middle": 0.9,
-   "outer": 0.85
+   "inner": 0.6,
+   "middle": 0.55,
+   "outer": 0.4
   },
-  "note": "Mataf plein de fidèles en tenue blanche, serrés et alignés en rangs de prière (certains en prosternation) jusqu'aux bords, avec seulement un petit espace dégagé",
-  "prayer": true,
+  "note": "Plan aérien : seul un coin du Mataf apparaît à droite (images 4 à 6), avec une foule assez présente près de la Ka‘bah et des bords plus dégagés ; les images 1 à",
+  "prayer": false,
   "source": "direct Quran TV"
  },
  "day": {
@@ -249,6 +249,10 @@
    {
     "min": 740,
     "level": 0.88
+   },
+   {
+    "min": 750,
+    "level": 0.55
    }
   ]
  },
