@@ -1,17 +1,15 @@
 {
  "now": {
   "date": "2026-11-26",
-  "min": 243,
-  "level": 0.8,
-  "from": "04:03",
-  "to": "04:03",
-  "frames": 6,
+  "min": 250,
+  "level": 0.45,
+  "from": "04:10",
+  "to": "04:10",
+  "frames": 3,
   "rings": {
-   "inner": 0.88,
-   "middle": 0.8,
-   "outer": 0.7
+   "outer": 0.45
   },
-  "note": "Mataf très dense près de la Ka‘bah, foule qui circule en continu, avec quelques zones plus claires sur le bord intérieur et des rangées de fidèles assis en bas ",
+  "note": "Seule la périphérie du Mataf est visible : forte densité de fidèles à droite et sur les côtés, esplanade à gauche presque dégagée avec dalles bien visibles.",
   "prayer": false,
   "source": "direct Quran TV"
  },
@@ -109,6 +107,10 @@
    {
     "min": 243,
     "level": 0.8
+   },
+   {
+    "min": 250,
+    "level": 0.45
    }
   ]
  },
